@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0"
+   version="2.9.1"
+   xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eldritch Project ODD: Markup on H. P. Lovecraft's Writings</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <!--Construct ab to hold @lang with value of "rly" for passages of Chthulu language. Think about/ Construct w to be set in p and anywhere, for use to 
+        specify certain special words. -->
+      <body>
+         <schemaSpec ident="EldritchODD" start="TEI teiCorpus" prefix="tei">
+            <moduleRef key="tei"/>
+            <moduleRef key="core" include="author listBibl bibl title rs desc date time choice sic reg del head lg l milestone pb lb note num p q quote ref resp textLang"/>
+            <moduleRef key="analysis" include="phr span cl"/>
+            <moduleRef key="header"/>         
+            <moduleRef key="namesdates" include="persName placeName orgName date location geo listPerson person occupation langKnowledge langKnown nationality forename surname  listOrg org listPlace terrain"/>
+            <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
+            <moduleRef key="linking" include="seg"/>
+            
+            <classSpec ident="att.global" type="atts" mode="change" module="tei">
+               <attList>
+                  <attDef ident="lang" mode="add">
+                     <desc>@lang is to be used to indicate a fictional or a "conlang" (constructed language), and takes a closed attribute list distinct to the project. In this project the @lang value "rly" designates the Cthulhu language, R'lyehian.</desc>
+                     <valList type="closed">
+                        <valItem ident="rly"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </classSpec>
+      
+            <elementSpec module="namesdates" ident="geo" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.typed" mode="add"/>  
+               </classes>
+               <constraintSpec scheme="isoschematron" ident="typing_geos">
+                  <constraint>
+                     <sch:rule context="tei:geo">
+                        <sch:assert test="parent::tei:location">Geo elements must be wrapped in a location element to bind pairs of geo-coordinates together.</sch:assert>
+                     </sch:rule>
+                 <sch:rule context="tei:geo[@type='lat']">
+                     <sch:assert test="matches(., '[NS]')">
+                        When a geo element is marked as @type="lat", its text must contain "N" or "S".
+                     </sch:assert>
+                  </sch:rule>
+                     <sch:rule context="tei:geo[@type='long']">
+                        <sch:assert test="matches(., '[EW]')">
+                           When a geo element marked as @type="long", its text must contain "E" or "W". 
+                        </sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="type" mode="replace" usage="rec">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="lat"/>
+                        <valItem ident="long"/>
+                     </valList>
+                  </attDef> 
+                  <attDef ident="subtype" mode="replace" usage="rec">
+                     <datatype>
+                        <dataRef key="teidata.word"/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="fict"/>
+                        <valItem ident="real"/>
+                     </valList>
+                  </attDef> 
+               </attList>              
+            </elementSpec>
+          <constraintSpec scheme="isoschematron" ident="pair_geos">
+             <constraint>
+                <sch:rule context="tei:location">
+                   <sch:assert test="count(tei:geo) = 2 and count(tei:geo[@type='lat']) = 1 and count(tei:geo[@type='long']) = 1">
+                      The location element must have two geo element children. 
+                      Of these, there must be one geo[@type='lat'] and one geo[@type='long'].
+                   </sch:assert>
+                </sch:rule>
+                
+             </constraint>
+          </constraintSpec>
+ 
+         </schemaSpec>
+      </body>
+  </text>
+</TEI>
