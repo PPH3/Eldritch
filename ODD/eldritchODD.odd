@@ -51,7 +51,29 @@
                   </attDef>
                </attList>
             </classSpec>
-      
+         
+            <!--<elementSpec ident="w" module="analysis" mode="change">
+            <attList>
+               <attDef ident="type" mode="replace" usage="rec">
+                  <datatype>
+                     <dataRef key="teidata.word"/>
+                  </datatype>
+                  <valList type="closed">
+                     <valItem ident="lat"/>
+                     <valItem ident="long"/>
+                  </valList>
+               </attDef> 
+               <attDef ident="subtype" mode="replace" usage="rec">
+                  <datatype>
+                     <dataRef key="teidata.word"/>
+                  </datatype>
+                  <valList type="closed">
+                     <valItem ident="fict"/>
+                     <valItem ident="real"/>
+                  </valList>
+               </attDef> 
+            </attList> 
+         </elementSpec>-->
             <elementSpec module="namesdates" ident="geo" mode="change">
                <classes mode="change">
                   <memberOf key="att.typed" mode="add"/>  
