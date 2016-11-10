@@ -23,16 +23,24 @@
   <text>
      <!--Construct ab to hold @lang with value of "rly" for passages of Chthulu language. Think about/ Construct w to be set in p and anywhere, for use to 
         specify certain special words. -->
+     
+     <!--TO THINK ABOUT: 
+        An element for special words. 
+        Representations of gaps or ellipses. Probably not the same thing as a deletion (del).
+     
+     -->
       <body>
          <schemaSpec ident="EldritchODD" start="TEI teiCorpus" prefix="tei">
             <moduleRef key="tei"/>
-            <moduleRef key="core" include="author listBibl bibl title rs desc date time choice sic reg del head lg l milestone pb lb note num p q quote ref resp textLang"/>
-            <moduleRef key="analysis" include="phr span cl"/>
-            <moduleRef key="header"/>         
-            <moduleRef key="namesdates" include="persName placeName orgName date location geo listPerson person occupation langKnowledge langKnown nationality forename surname  listOrg org listPlace terrain"/>
-            <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
-            <moduleRef key="linking" include="seg"/>
+            <moduleRef key="core" include="author listBibl bibl title cit quote rs desc date time choice sic reg del head lg l gap milestone pb lb note num p q ref resp textLang"/>
             
+           <!-- <choice><sic>Esquimaux</sic><reg>Eskimo</reg></choice>-->
+               
+            <moduleRef key="analysis" include="w phr cl"/>
+            <moduleRef key="header"/>         
+            <moduleRef key="namesdates" include="persName placeName orgName location geo terrain listPerson person forename surname occupation nationality listOrg org listPlace place"/>
+            <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
+                  
             <classSpec ident="att.global" type="atts" mode="change" module="tei">
                <attList>
                   <attDef ident="lang" mode="add">
@@ -86,7 +94,8 @@
                   </attDef> 
                </attList>              
             </elementSpec>
-          <constraintSpec scheme="isoschematron" ident="pair_geos">
+         
+            <constraintSpec scheme="isoschematron" ident="pair_geos">
              <constraint>
                 <sch:rule context="tei:location">
                    <sch:assert test="count(tei:geo) = 2 and count(tei:geo[@type='lat']) = 1 and count(tei:geo[@type='long']) = 1">
@@ -94,7 +103,6 @@
                       Of these, there must be one geo[@type='lat'] and one geo[@type='long'].
                    </sch:assert>
                 </sch:rule>
-                
              </constraint>
           </constraintSpec>
  
