@@ -21,20 +21,19 @@
       </fileDesc>
   </teiHeader>
   <text>
-     <!--Construct ab to hold @lang with value of "rly" for passages of Chthulu language. Think about/ Construct w to be set in p and anywhere, for use to 
-        specify certain special words. -->
-     
-     <!--TO THINK ABOUT: 
-        An element for special words. 
-        Representations of gaps or ellipses. Probably not the same thing as a deletion (del).
-     
-     -->
       <body>
          <schemaSpec ident="EldritchODD" start="TEI teiCorpus" prefix="tei">
             <moduleRef key="tei"/>
-            <moduleRef key="core" include="author listBibl bibl title cit quote rs desc date time choice sic reg del head lg l gap milestone pb lb note num p q ref resp textLang"/>
+            <moduleRef key="core" include="listBibl bibl title author editor publisher pubPlace biblScope cit quote rs desc date time choice sic reg del head lg l gap milestone pb lb note num p q ref respStmt resp textLang"/>
+            <!--The elements that start the above list, from listBibl through biblScope, are used for bibliographies and bibliographic citations. In your markup within Lovecraft's texts, you'll likely most often be using title. Use title when the title of a work is referred to, and bibl when it's a fuller reference that might contain a title and an author, *or* is a reference to a "that book by so-and-so" which isn't really its title. 
+            Use the @level attribute on title to control what kind of title it is: <title level="j"> for journal articles, and <title level="m"> for books (known as "monographs"). 
+            <cit>, <quote>, and <bibl> are used together for a quoted passage in the text with a source attribution, like this:
             
-           <!-- <choice><sic>Esquimaux</sic><reg>Eskimo</reg></choice>-->
+            <cit><quote>To be, or not to be</quote><bibl><title level="m">Hamlet</title> by <author>William Shakespeare</author></bibl></cit>
+            -->
+           
+            <!--Here's something you can do to make your text more searchable: The contents of <sic> might be worth pulling when you extract interesting words coded with <w>:
+               <choice><sic>Esquimaux</sic><reg>Eskimo</reg></choice>-->
                
             <moduleRef key="analysis" include="w phr cl"/>
             <moduleRef key="header"/>         
