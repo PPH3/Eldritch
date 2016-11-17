@@ -39,7 +39,7 @@
             <moduleRef key="analysis" include="w phr cl"/>
             <moduleRef key="header"/>         
             <moduleRef key="namesdates" include="persName placeName orgName location geo terrain listPerson person forename surname occupation nationality listOrg org listPlace place"/>
-            <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
+            <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
                   
             <classSpec ident="att.global" type="atts" mode="change" module="tei">
                <attList>
