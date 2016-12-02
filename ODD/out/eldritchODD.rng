@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-11-17T03:19:38Z. .
+Schema generated from ODD source 2016-12-02T23:46:52Z. .
 TEI Edition: Version 3.0.0. Last updated on
 	29th March 2016, revision 89ba24e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -3401,20 +3401,33 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
             <choice>
                <text/>
                <ref name="teimodel.gLike"/>
-        
                <ref name="teiw"/>
-        
-        
-        
                <ref name="teimodel.global"/>
                <ref name="teimodel.lPart"/>
                <ref name="teimodel.hiLike"/>
                <ref name="teimodel.pPart.edit"/>
             </choice>
          </zeroOrMore>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="EldritchODD-w-synsetFormat-constraint-9">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      context="tei:w/@synset">
+                        <sch:assert test="matches(., '^[a-z]+\.[a-z]\.\d{2}$')">
+                           When using the attribute @synset on a w element, it must match the wordnet format, like so: "ghost.n.03", "frighten.v.01" , "eldritch.a.01". 
+                        </sch:assert>
+                     </sch:rule>
+         </pattern>
          <ref name="teiatt.global.attributes"/>
          <ref name="teiatt.segLike.attributes"/>
          <ref name="teiatt.typed.attributes"/>
+         <optional>
+            <attribute name="synset">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <data type="token"/>
+            </attribute>
+         </optional>
          <optional>
             <attribute name="lemma">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a lemma for the word, such as an uninflected dictionary entry form.</a:documentation>
@@ -5045,7 +5058,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(geographical coordinates) contains any expression of a set of geographic coordinates, representing a point, line, or area on the surface of the earth in some notation. [13.3.4.1. Varieties of Location]</a:documentation>
          <text/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="EldritchODD-geo-typing_geos-constraint-9">
+                  id="EldritchODD-geo-typing_geos-constraint-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -5054,7 +5067,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                      </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="EldritchODD-geo-typing_geos-constraint-10">
+                  id="EldritchODD-geo-typing_geos-constraint-11">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -5065,7 +5078,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="EldritchODD-geo-typing_geos-constraint-11">
+                  id="EldritchODD-geo-typing_geos-constraint-12">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -6387,7 +6400,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
       </choice>
    </start>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="EldritchODD-pair_geos-constraint-12">
+            id="EldritchODD-pair_geos-constraint-13">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"

@@ -52,28 +52,25 @@
                </attList>
             </classSpec>
          
-            <!--<elementSpec ident="w" module="analysis" mode="change">
+            <elementSpec ident="w" module="analysis" mode="change">
+            <constraintSpec scheme="isoschematron" ident="synsetFormat">
+                  <constraint>
+                     <sch:rule context="tei:w/@synset">
+                        <sch:assert test="matches(., '^[a-z]+\.[a-z]\.\d{2}$')">
+                           When using the attribute @synset on a w element, it must match the wordnet format, like so: "ghost.n.03", "frighten.v.01" , "eldritch.a.01". 
+                        </sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
             <attList>
-               <attDef ident="type" mode="replace" usage="rec">
+               <attDef ident="synset" mode="add" usage="rec">
                   <datatype>
-                     <dataRef key="teidata.word"/>
+                     <dataRef key="data.pattern" restriction="^[a-z]+\.[a-z]\.\d{2}$"/>
+                     <!--2016-12-02 ebb: This doesn't seem to be working on its own, so we added a Schematron constraint to control the content.-->
                   </datatype>
-                  <valList type="closed">
-                     <valItem ident="lat"/>
-                     <valItem ident="long"/>
-                  </valList>
-               </attDef> 
-               <attDef ident="subtype" mode="replace" usage="rec">
-                  <datatype>
-                     <dataRef key="teidata.word"/>
-                  </datatype>
-                  <valList type="closed">
-                     <valItem ident="fict"/>
-                     <valItem ident="real"/>
-                  </valList>
-               </attDef> 
-            </attList> 
-         </elementSpec>-->
+               </attDef>  
+            </attList>
+         </elementSpec>
             <elementSpec module="namesdates" ident="geo" mode="change">
                <classes mode="change">
                   <memberOf key="att.typed" mode="add"/>  
