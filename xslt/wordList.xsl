@@ -16,13 +16,18 @@
             Distinct-values count: <xsl:value-of select="$countWord"/>
         </xsl:comment>
         
-        <list>
             <xsl:for-each select="$numWord">
             <xsl:sort/>
+                <listAlph>
                 <word>
                     <w><xsl:value-of select="."/></w>
                 </word>
+                </listAlph>
+<!--                
+                <listNum>
+                    <xsl:value-of select="."/>(<xsl:value-of select="count(.)"/>)
+                </listNum>-->
         </xsl:for-each>
-        </list>
+        
     </xsl:template>
 </xsl:stylesheet>
