@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listAlph>
     <!--
-            Distinct-values count: 310-->
-    <word>
-        <w>"Old Ones"</w>
-        <lovecraftUse>
-            <totalCount>1</totalCount>
-        </lovecraftUse>
-    </word>
+            Distinct-values count: 300-->
     <word>
         <w>"Shoggoths"</w>
         <lovecraftUse>
@@ -35,13 +29,7 @@
     <word>
         <w>Archaean</w>
         <lovecraftUse>
-            <totalCount>17</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Archaean Age</w>
-        <lovecraftUse>
-            <totalCount>1</totalCount>
+            <totalCount>18</totalCount>
         </lovecraftUse>
     </word>
     <word>
@@ -77,13 +65,7 @@
     <word>
         <w>Comanchian</w>
         <lovecraftUse>
-            <totalCount>7</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Comanchian Age</w>
-        <lovecraftUse>
-            <totalCount>1</totalCount>
+            <totalCount>8</totalCount>
         </lovecraftUse>
     </word>
     <word>
@@ -95,13 +77,7 @@
     <word>
         <w>Cretaceous</w>
         <lovecraftUse>
-            <totalCount>4</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Cretaceous Age</w>
-        <lovecraftUse>
-            <totalCount>1</totalCount>
+            <totalCount>5</totalCount>
         </lovecraftUse>
     </word>
     <word>
@@ -123,7 +99,7 @@
         </lovecraftUse>
     </word>
     <word>
-        <w>Elder Things</w>
+        <w>Elder</w>
         <lovecraftUse>
             <totalCount>2</totalCount>
         </lovecraftUse>
@@ -171,12 +147,6 @@
         </lovecraftUse>
     </word>
     <word>
-        <w>Great Old Ones</w>
-        <lovecraftUse>
-            <totalCount>1</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
         <w>Hyperborea</w>
         <lovecraftUse>
             <totalCount>1</totalCount>
@@ -203,13 +173,7 @@
     <word>
         <w>Jurassic</w>
         <lovecraftUse>
-            <totalCount>3</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Jurassic Age</w>
-        <lovecraftUse>
-            <totalCount>1</totalCount>
+            <totalCount>4</totalCount>
         </lovecraftUse>
     </word>
     <word>
@@ -291,15 +255,9 @@
         </lovecraftUse>
     </word>
     <word>
-        <w>Old One</w>
+        <w>Old</w>
         <lovecraftUse>
             <totalCount>2</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Old Ones</w>
-        <lovecraftUse>
-            <totalCount>60</totalCount>
         </lovecraftUse>
     </word>
     <word>
@@ -309,7 +267,7 @@
         </lovecraftUse>
     </word>
     <word>
-        <w>Oligocene Age</w>
+        <w>Oligocene</w>
         <lovecraftUse>
             <totalCount>2</totalCount>
         </lovecraftUse>
@@ -347,13 +305,7 @@
     <word>
         <w>Permian</w>
         <lovecraftUse>
-            <totalCount>1</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Permian Age</w>
-        <lovecraftUse>
-            <totalCount>2</totalCount>
+            <totalCount>3</totalCount>
         </lovecraftUse>
     </word>
     <word>
@@ -365,25 +317,19 @@
     <word>
         <w>Pliocene</w>
         <lovecraftUse>
-            <totalCount>4</totalCount>
+            <totalCount>5</totalCount>
         </lovecraftUse>
     </word>
     <word>
         <w>Pliocene Age</w>
         <lovecraftUse>
-            <totalCount>2</totalCount>
+            <totalCount>1</totalCount>
         </lovecraftUse>
     </word>
     <word>
         <w>Pnakotic</w>
         <lovecraftUse>
-            <totalCount>1</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Pnakotic Manuscripts</w>
-        <lovecraftUse>
-            <totalCount>3</totalCount>
+            <totalCount>4</totalCount>
         </lovecraftUse>
     </word>
     <word>
@@ -424,12 +370,6 @@
     </word>
     <word>
         <w>Silurian</w>
-        <lovecraftUse>
-            <totalCount>1</totalCount>
-        </lovecraftUse>
-    </word>
-    <word>
-        <w>Snow Men</w>
         <lovecraftUse>
             <totalCount>1</totalCount>
         </lovecraftUse>
