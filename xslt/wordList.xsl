@@ -12,13 +12,13 @@
     
     
     <xsl:template match="/">
-       <listAlph>
+      <xml> <listAlph>
         <xsl:comment>
             Distinct-values count: <xsl:value-of select="$countWord"/>
         </xsl:comment>
         
             <xsl:for-each select="$numWord">
-            <xsl:sort/>
+                <xsl:sort/>
                 
                 <word>
                     <w><xsl:value-of select="."/></w>
@@ -40,5 +40,35 @@
                 </listNum>-->
         </xsl:for-each>
        </listAlph>
+        
+        <listCount>
+            <xsl:comment>
+            Distinct-values count: <xsl:value-of select="$countWord"/>
+        </xsl:comment>
+            
+            <xsl:for-each select="$numWord">
+                <xsl:sort select="count($love//w[. = current()])" order="descending"/>
+                
+                <word>
+                    <w><xsl:value-of select="."/></w>
+                    <lovecraftUse>
+                        
+                        <totalCount><xsl:value-of select="count($love//w[. = current()])"/></totalCount>
+                        <!-- <work><title>...</title>
+                            <localCount>...</localCount>
+                           
+                        </work>-->
+                    </lovecraftUse>
+                    
+                    
+                </word>
+                
+                <!--                
+                <listNum>
+                    <xsl:value-of select="."/>(<xsl:value-of select="count(.)"/>)
+                </listNum>-->
+            </xsl:for-each>
+        </listCount>
+      </xml>
     </xsl:template>
 </xsl:stylesheet>
