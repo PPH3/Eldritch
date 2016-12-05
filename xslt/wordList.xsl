@@ -7,27 +7,38 @@
     version="3.0">
     
     <xsl:variable name="love" select="collection('../mark-up')"/>
-    <xsl:variable name="numWord" select="distinct-values($love//w)"/>
+    <xsl:variable name="numWord" select="distinct-values($love//w/normalize-space())"/>
     <xsl:variable name="countWord" select="count($numWord)"/>
     
     
     <xsl:template match="/">
+       <listAlph>
         <xsl:comment>
             Distinct-values count: <xsl:value-of select="$countWord"/>
         </xsl:comment>
         
             <xsl:for-each select="$numWord">
             <xsl:sort/>
-                <listAlph>
+                
                 <word>
                     <w><xsl:value-of select="."/></w>
+                    <lovecraftUse>
+                        
+                 <totalCount><xsl:value-of select="count($love//w[. = current()])"/></totalCount>
+                       <!-- <work><title>...</title>
+                            <localCount>...</localCount>
+                           
+                        </work>-->
+                    </lovecraftUse>
+                    
+                    
                 </word>
-                </listAlph>
+                
 <!--                
                 <listNum>
                     <xsl:value-of select="."/>(<xsl:value-of select="count(.)"/>)
                 </listNum>-->
         </xsl:for-each>
-        
+       </listAlph>
     </xsl:template>
 </xsl:stylesheet>
