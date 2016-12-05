@@ -65,7 +65,14 @@
             <attList>
                <attDef ident="synset" mode="add" usage="rec">
                   <datatype>
-                     <dataRef key="data.pattern" restriction="^[a-z]+\.[a-z]\.\d{2}$"/>
+                     <dataRef key="teidata.pattern" restriction="^[a-z]+\.[a-z]\.\d{2}$"/>
+                     <!--2016-12-05 ebb: attempting to fix with teidata.pattern instead of data.pattern.
+                        2016-12-02 ebb: This doesn't seem to be working on its own, so we added a Schematron constraint to control the content.-->
+                  </datatype>
+               </attDef>  
+               <attDef ident="synsetCount" mode="add" usage="rec">
+                  <datatype>
+                     <dataRef name="integer"/>
                      <!--2016-12-02 ebb: This doesn't seem to be working on its own, so we added a Schematron constraint to control the content.-->
                   </datatype>
                </attDef>  
