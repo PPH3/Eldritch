@@ -6,6 +6,8 @@
     exclude-result-prefixes="xs math"
     version="3.0">
     
+    <xsl:output method="xml" indent="yes"/>
+    
     <xsl:variable name="love" select="collection('../mark-up')"/>
     <xsl:variable name="numWord" select="distinct-values($love//w/normalize-space())"/>
     <xsl:variable name="countWord" select="count($numWord)"/>
