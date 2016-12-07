@@ -11,7 +11,7 @@
     <xsl:variable name="love" select="collection('../mark-up')"/>
     <xsl:variable name="numWord" select="distinct-values($love//w/normalize-space())"/>
     <xsl:variable name="countWord" select="count($numWord)"/>
-    
+    <xsl:variable name="titleColl" select="$love//titleStmt/title"/>
     
     <xsl:template match="/">
       <xml> <listAlph>
@@ -21,16 +21,20 @@
         
             <xsl:for-each select="$numWord">
                 <xsl:sort/>
-                
+                <xsl:variable name="currWord" select="current()"/>
                 <word>
                     <w><xsl:value-of select="."/></w>
                     <lovecraftUse>
                         
                  <totalCount><xsl:value-of select="count($love//w[. = current()])"/></totalCount>
-                       <!-- <work><title>...</title>
-                            <localCount>...</localCount>
-                           
-                        </work>-->
+                        <xsl:for-each select="$titleColl">
+                            <xsl:comment>Current word is <xsl:value-of select="$currWord"/></xsl:comment>
+                            <work><title><xsl:value-of select="."/></title>
+                                <localCount><xsl:value-of select="count(ancestor::TEI//text//w[. = $currWord])"/></localCount>
+                                
+                            </work>
+                            
+                        </xsl:for-each>
                     </lovecraftUse>
                     
                     
@@ -49,17 +53,27 @@
         </xsl:comment>
             
             <xsl:for-each select="$numWord">
-                <xsl:sort select="count($love//w[. = current()])" order="descending"/>
                 
+                <xsl:sort select="count($love//w[. = current()])" order="descending"/>
+                <xsl:variable name="currentWord" select="current()"/>
+              
                 <word>
                     <w><xsl:value-of select="."/></w>
                     <lovecraftUse>
                         
                         <totalCount><xsl:value-of select="count($love//w[. = current()])"/></totalCount>
-                        <!-- <work><title>...</title>
-                            <localCount>...</localCount>
+                        
+                            
+                 <xsl:for-each select="$titleColl">
+                    <xsl:comment>Current word is <xsl:value-of select="$currentWord"/></xsl:comment>
+                               <work><title><xsl:value-of select="."/></title>
+                            <localCount><xsl:value-of select="count(ancestor::TEI//text//w[. = $currentWord])"/></localCount>
                            
-                        </work>-->
+                        </work>
+                                
+                            </xsl:for-each>
+                        
+                        
                     </lovecraftUse>
                     
                     
