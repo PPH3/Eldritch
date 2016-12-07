@@ -16,12 +16,16 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
-        <w>Atlantis</w>
-        <synsetCount>1</synsetCount>
+        <w>Atrophied</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>Bacchanal</w>
         <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>Beasts</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>Carboniferous</w>
@@ -29,10 +33,6 @@
     </word>
     <word>
         <w>Comanchian</w>
-        <synsetCount>0</synsetCount>
-    </word>
-    <word>
-        <w>Commoriom</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
@@ -76,15 +76,11 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
-        <w>Garden</w>
+        <w>God</w>
         <synsetCount>4</synsetCount>
     </word>
     <word>
-        <w>of</w>
-        <synsetCount>0</synsetCount>
-    </word>
-    <word>
-        <w>the</w>
+        <w>God!</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
@@ -104,8 +100,8 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
-        <w>Johansen</w>
-        <synsetCount>0</synsetCount>
+        <w>Idol</w>
+        <synsetCount>3</synsetCount>
     </word>
     <word>
         <w>Jurassic</w>
@@ -120,12 +116,8 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
-        <w>Lascar</w>
+        <w>Labyrinthine</w>
         <synsetCount>2</synsetCount>
-    </word>
-    <word>
-        <w>Lemuria</w>
-        <synsetCount>0</synsetCount>
     </word>
     <word>
         <w>Levantines</w>
@@ -148,12 +140,16 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
-        <w>Nameless</w>
+        <w>Myth</w>
         <synsetCount>1</synsetCount>
     </word>
     <word>
-        <w>Olathoc</w>
-        <synsetCount>0</synsetCount>
+        <w>Mythologists</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>Nameless</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>Old</w>
@@ -196,14 +192,6 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
-        <w>Pliocene</w>
-        <synsetCount>1</synsetCount>
-    </word>
-    <word>
-        <w>Age</w>
-        <synsetCount>8</synsetCount>
-    </word>
-    <word>
         <w>Pnakotic</w>
         <synsetCount>0</synsetCount>
     </word>
@@ -220,6 +208,10 @@
         <synsetCount>5</synsetCount>
     </word>
     <word>
+        <w>Radiates</w>
+        <synsetCount>8</synsetCount>
+    </word>
+    <word>
         <w>Shoggoths</w>
         <synsetCount>0</synsetCount>
     </word>
@@ -232,8 +224,12 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
-        <w>Tartarus</w>
-        <synsetCount>1</synsetCount>
+        <w>Symmetry</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>Tertiary</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>Theosophists</w>
@@ -245,10 +241,6 @@
     </word>
     <word>
         <w>Tsathoggua</w>
-        <synsetCount>0</synsetCount>
-    </word>
-    <word>
-        <w>Uzuldaroum</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
@@ -296,8 +288,48 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>abyss-vapor</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>abysses</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>accursed</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>aeon</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>aeon-cursed</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>aeon-dead</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>aeon-long</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>aeon-old</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>aeon-silent</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>aeons</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>aerial</w>
+        <synsetCount>4</synsetCount>
     </word>
     <word>
         <w>aesthetes</w>
@@ -308,12 +340,80 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>age-denied</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>agglutination</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>agglutinations</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>albinism</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>albino</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>alien</w>
         <synsetCount>7</synsetCount>
     </word>
     <word>
+        <w>alien-rhythmed</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>alienage</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>alienated</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>alienation</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>allured</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>amphibious</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>analogous</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>analogue</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>analogy</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>analyse</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>analysis</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
+        <w>analytical</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>analyze</w>
+        <synsetCount>4</synsetCount>
     </word>
     <word>
         <w>anatomical</w>
@@ -324,12 +424,28 @@
         <synsetCount>4</synsetCount>
     </word>
     <word>
+        <w>ancientl</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>aneroid</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>angekok</w>
         <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>angiosperms</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>anomalous</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>antarctic</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>anthropoid</w>
@@ -348,8 +464,36 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>antiquity</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>apexes</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>apprehensive</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>arabesque</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>arabesques</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>arcana</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>archaic</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>arctic</w>
+        <synsetCount>4</synsetCount>
     </word>
     <word>
         <w>arduous</w>
@@ -358,6 +502,22 @@
     <word>
         <w>arithmetical</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>astronomical</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>astrophysics</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>atrophy</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>austral</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>autohypnotism</w>
@@ -369,6 +529,14 @@
     </word>
     <word>
         <w>aversions</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>awesomely</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>babel</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
@@ -384,6 +552,26 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>beasts</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>beetling</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>belch</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>benign</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>bestial</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>biological</w>
         <synsetCount>2</synsetCount>
     </word>
@@ -392,12 +580,44 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>blackness</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>blasphemies</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>blasphemous</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>blasphemously</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>blasphemy</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>brachiate</w>
         <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>brooding</w>
+        <synsetCount>8</synsetCount>
+    </word>
+    <word>
+        <w>bubbling</w>
+        <synsetCount>7</synsetCount>
+    </word>
+    <word>
+        <w>bulk</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>burrows</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>bygone</w>
@@ -408,12 +628,44 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>cartouches</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>carve</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>carven</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>carvings</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
+        <w>cells</w>
+        <synsetCount>7</synsetCount>
+    </word>
+    <word>
         <w>ceremonials</w>
         <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>chanting</w>
         <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>churning</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>cilia</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>cleavage</w>
+        <synsetCount>5</synsetCount>
     </word>
     <word>
         <w>clergymen</w>
@@ -428,8 +680,56 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>colossal</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>congeries</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>conical</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>connectives</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>conspicuous</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>constellated</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>constructional</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>contour</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>contours</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>conventionalization</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>cosmic</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>creature</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>creatures</w>
+        <synsetCount>3</synsetCount>
     </word>
     <word>
         <w>creeds</w>
@@ -438,6 +738,18 @@
     <word>
         <w>crinoid</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>critter</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>critters</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>crude</w>
+        <synsetCount>7</synsetCount>
     </word>
     <word>
         <w>cryptic</w>
@@ -452,11 +764,23 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>cryptogams</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>cult</w>
         <synsetCount>5</synsetCount>
     </word>
     <word>
+        <w>cumbrous</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>cupola</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>curiously</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
@@ -464,8 +788,20 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>cycad</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>cycads</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>cyclopean</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>dadoes</w>
+        <synsetCount>5</synsetCount>
     </word>
     <word>
         <w>daemon</w>
@@ -484,7 +820,15 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>decadent</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>decapitated</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>decapitation</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
@@ -500,12 +844,32 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>decomposition</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
         <w>decrepit</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>decrepitude</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>degenerate</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>degeneration</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>demon</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>demoniac</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>demons</w>
@@ -516,12 +880,20 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>depths</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
         <w>deserted</w>
         <synsetCount>4</synsetCount>
     </word>
     <word>
         <w>desolate</w>
         <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>desolation</w>
+        <synsetCount>4</synsetCount>
     </word>
     <word>
         <w>desultory</w>
@@ -540,6 +912,10 @@
         <synsetCount>7</synsetCount>
     </word>
     <word>
+        <w>diabolical</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>diademmed</w>
         <synsetCount>0</synsetCount>
     </word>
@@ -552,6 +928,18 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>disintegrated</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>disintegration</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>disintegrative</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>dismal</w>
         <synsetCount>1</synsetCount>
     </word>
@@ -560,12 +948,48 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>dissected</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>disturbing</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
+        <w>dizzily</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>dizzy</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>dread</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>ductile</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>efflorescences</w>
         <synsetCount>4</synsetCount>
     </word>
     <word>
+        <w>elder</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>elder-world</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>eldritch</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>electro-chemical</w>
+        <synsetCount>0</synsetCount>
     </word>
     <word>
         <w>elfin</w>
@@ -576,8 +1000,40 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>embrasure</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>entities</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>entity</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>epoch</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>epoch-making</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>epochs</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>equilibrium</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>ethereal</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>eurythmic</w>
+        <synsetCount>0</synsetCount>
     </word>
     <word>
         <w>evil</w>
@@ -588,6 +1044,58 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>evils</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>evolution</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>excellences</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>exotic</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>exotically</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>exoticism</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>eyelessness</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>fabled</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>fabulous</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>fate</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>fathom</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>fearful</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>feature</w>
+        <synsetCount>8</synsetCount>
+    </word>
+    <word>
         <w>febrile</w>
         <synsetCount>1</synsetCount>
     </word>
@@ -596,12 +1104,60 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>fetichism</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>fetid</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>fetidly</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>fetish</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>fetor</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>fiendish</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>finials</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>fish-frogs</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>five-lobed</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>forbidden</w>
         <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>fore-and-aft</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>fossiliferous</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>fossils</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>friezes</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>fright</w>
@@ -628,8 +1184,16 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>futurists</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>galleon</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>gallery</w>
+        <synsetCount>7</synsetCount>
     </word>
     <word>
         <w>gambrel</w>
@@ -648,6 +1212,10 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>geologic</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>geometrical</w>
         <synsetCount>2</synsetCount>
     </word>
@@ -656,20 +1224,112 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>gigantic</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>gigantism</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>glaciation</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>glistening</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>god-things</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>gods</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
         <w>grandeur</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>gravely</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>grotesque</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>grotesquely</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>grotesqueness</w>
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>gymnosperms</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>hare-and-hound</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>hateful</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>haunted</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
+        <w>headless</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>headlessness</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>heathen</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>hell</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
+        <w>hellish</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>hellishly</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>heterodox</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>hideously</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>historic-mindedness</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>honeycomb</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>honeycombed</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>honeycombings</w>
+        <synsetCount>3</synsetCount>
     </word>
     <word>
         <w>horrible</w>
@@ -692,8 +1352,60 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>hypersensitive</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>hypnotic</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>hypnotised</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>hypotheses</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>hypothesis</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>hysterical</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>hysterically</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>hysterics</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>ichor</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>ichthyic</w>
         <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>idol</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>idols</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>imitative</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>immemorial</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>immorality</w>
@@ -708,23 +1420,123 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>incredulity</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>ineffable</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>ineluctable</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>inhuman</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>inhumanly</w>
+        <synsetCount>0</synsetCount>
     </word>
     <word>
         <w>ins</w>
         <synsetCount>4</synsetCount>
     </word>
     <word>
+        <w>insane</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>insidious</w>
         <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>invertebrate</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>iridescence</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>iridescent</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>jelly</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>jest</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>jocosely</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>labyrinth</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>labyrinthodonts</w>
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>lair</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>latent</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>leer</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>legend</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>legendry</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>legends</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>lethal</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>limber</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
+        <w>liquor</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>liquorish</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>littered</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>loathsome</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>locomotion</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>lurking</w>
         <synsetCount>3</synsetCount>
     </word>
     <word>
@@ -732,8 +1544,20 @@
         <synsetCount>4</synsetCount>
     </word>
     <word>
+        <w>madness</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>malign</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
         <w>malignancy</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>malignant</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>malignity</w>
@@ -741,6 +1565,26 @@
     </word>
     <word>
         <w>manifestly</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>marvelous</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>masonry</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>mathematical</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>mathematics</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>megalithic</w>
         <synsetCount>1</synsetCount>
     </word>
     <word>
@@ -760,8 +1604,124 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>miraculously</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>mirage</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>mirages</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>monsters</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>monstrosities</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>monstrosity</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>monstrous</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>monstrously</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>morbid</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>morphology</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
         <w>mosasaur</w>
         <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>multitudinous</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>mysteries</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>mysterious</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>mystery</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>mystic</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>mystical</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>mystically</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>mystics</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>mystified</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>myth</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>myth-maker</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>mythical</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>mythological</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>mythology</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>myths</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>nameless</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>nauseously</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>nerve-tortured</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>nervously</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>nightmare</w>
@@ -772,8 +1732,32 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>noisome</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>non-Euclidean</w>
         <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>nonagenarian</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>nuances</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>obscenely</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>obscure</w>
+        <synsetCount>11</synsetCount>
+    </word>
+    <word>
+        <w>obscurely</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>odour</w>
@@ -792,8 +1776,32 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>omnipresent</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>oncoming</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>oozed</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>opalescent</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>oppressive</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>opulent</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>organs</w>
+        <synsetCount>7</synsetCount>
     </word>
     <word>
         <w>osseous</w>
@@ -804,11 +1812,35 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>paganly</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>palaeotheres</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>paleogean</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>paleontology</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>palimpsest</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>pallid</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>pallidly</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>paraphernalia</w>
         <synsetCount>1</synsetCount>
     </word>
     <word>
@@ -820,12 +1852,32 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>penguin-fringed</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>petrified</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
         <w>phantasmally</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
         <w>phantasy</w>
         <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>phantom</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>phosphorescence</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>physiographic</w>
+        <synsetCount>0</synsetCount>
     </word>
     <word>
         <w>pious</w>
@@ -840,6 +1892,14 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>plastic</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>plasticity</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>poignantly</w>
         <synsetCount>1</synsetCount>
     </word>
@@ -849,6 +1909,14 @@
     </word>
     <word>
         <w>pre-Cambrian</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>prehistoric</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>prehuman</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
@@ -868,7 +1936,43 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>primal</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>primitive</w>
+        <synsetCount>7</synsetCount>
+    </word>
+    <word>
+        <w>primordial</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>prodigious</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>profusion</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>prothallus</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>protoplasm</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>protoplasmic</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>protozoa</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>providentially</w>
         <synsetCount>3</synsetCount>
     </word>
     <word>
@@ -880,8 +1984,28 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>pseudofeet</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>pseudom</w>
         <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>psychically</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>psychological</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>psychologists</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>psychology</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>pteridophytes</w>
@@ -892,7 +2016,39 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>pterodactyls</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>pulpy</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>pungent</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>pustules</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>pylons</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>pyramidal</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>quadrupeds</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>quasi-hypnotic</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>quasi-pagan</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
@@ -908,8 +2064,32 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>queerness</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>quota</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>radiata</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>radiate</w>
+        <synsetCount>10</synsetCount>
+    </word>
+    <word>
+        <w>radical</w>
+        <synsetCount>11</synsetCount>
+    </word>
+    <word>
         <w>raucous</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>recklessly</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>repulsion</w>
@@ -924,6 +2104,10 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>resculptured</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>reticence</w>
         <synsetCount>1</synsetCount>
     </word>
@@ -932,8 +2116,20 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>retrogression</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>revelation</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
         <w>revivals</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>ritualistic</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>rotted</w>
@@ -948,6 +2144,10 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>rubbery</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>ruin</w>
         <synsetCount>12</synsetCount>
     </word>
@@ -960,20 +2160,56 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>ruinously</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>ruins</w>
         <synsetCount>12</synsetCount>
+    </word>
+    <word>
+        <w>sacred</w>
+        <synsetCount>5</synsetCount>
+    </word>
+    <word>
+        <w>sacredness</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>sacrifice</w>
+        <synsetCount>9</synsetCount>
     </word>
     <word>
         <w>sacrifices</w>
         <synsetCount>9</synsetCount>
     </word>
     <word>
+        <w>sacrificin</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>salient</w>
         <synsetCount>4</synsetCount>
     </word>
     <word>
+        <w>saraband</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>scalloped</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
         <w>scarabaeus</w>
         <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>scarred</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>sculptural</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>secret</w>
@@ -988,7 +2224,31 @@
         <synsetCount>3</synsetCount>
     </word>
     <word>
+        <w>self-luminous</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>semblance</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>semientity</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>semistable</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>semivision</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>sententious</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>serrated</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
@@ -1020,6 +2280,10 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>shapeless</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>shewed</w>
         <synsetCount>1</synsetCount>
     </word>
@@ -1028,12 +2292,48 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>silhouette</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
         <w>simian</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>simians</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
         <w>sinister</w>
         <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>sinus</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>slime</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>slime-coated</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>slime-spewing</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>slithering</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>soapstone</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>socialistic</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>sociologist</w>
@@ -1056,20 +2356,136 @@
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>spawn</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>specimens</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>spectral</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>spectrally</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>spell</w>
+        <synsetCount>10</synsetCount>
+    </word>
+    <word>
+        <w>spheroids</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>spiral</w>
+        <synsetCount>10</synsetCount>
+    </word>
+    <word>
+        <w>spiraling</w>
+        <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>spirally</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>spirals</w>
+        <synsetCount>9</synsetCount>
+    </word>
+    <word>
+        <w>spires</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>spore</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>stalagmites</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>stimuli</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>stupendous</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>stupendously</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>subterranean</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>subterrene</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>subzero</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>superadded</w>
         <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>symbols</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>symmetrical</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>taint</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>tarpaulin</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>teem</w>
         <synsetCount>2</synsetCount>
     </word>
     <word>
+        <w>templed</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
         <w>tenebrousness</w>
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>tentacle</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>tentacled</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>tentacles</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>tenuous</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
         <w>terror</w>
         <synsetCount>4</synsetCount>
+    </word>
+    <word>
+        <w>thallus</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>thecodonts</w>
@@ -1080,8 +2496,8 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
-        <w>theosophist,</w>
-        <synsetCount>0</synsetCount>
+        <w>thrall</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>tiara</w>
@@ -1089,6 +2505,18 @@
     </word>
     <word>
         <w>tippler</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>tissues</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>titan</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>titanic</w>
         <synsetCount>1</synsetCount>
     </word>
     <word>
@@ -1104,8 +2532,80 @@
         <synsetCount>0</synsetCount>
     </word>
     <word>
+        <w>tubular</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>ultra-dimensionality</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>un-forming</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>unaccustomed</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>uncannily</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>uncanny</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>undecayed</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>undeteriorative</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>unearth</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>unearthed</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>unearthing</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>unearthly</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>unfathomed</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>unglimpsed</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>unglistening</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>unhallowed</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>unholy</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>unhuman</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>unknown</w>
+        <synsetCount>8</synsetCount>
     </word>
     <word>
         <w>unnatural</w>
@@ -1116,12 +2616,52 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>untold</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>up-and-down</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>vague</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>vanished</w>
+        <synsetCount>6</synsetCount>
+    </word>
+    <word>
+        <w>vapors</w>
+        <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>vast-winged</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>vegetable's</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>vegetablelike</w>
+        <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>vegetables</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>veiled</w>
         <synsetCount>4</synsetCount>
     </word>
     <word>
         <w>ventriculites</w>
         <synsetCount>0</synsetCount>
+    </word>
+    <word>
+        <w>vertebrates</w>
+        <synsetCount>1</synsetCount>
     </word>
     <word>
         <w>vestigial</w>
@@ -1140,6 +2680,10 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>virtual</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>visage</w>
         <synsetCount>2</synsetCount>
     </word>
@@ -1148,12 +2692,20 @@
         <synsetCount>1</synsetCount>
     </word>
     <word>
+        <w>viscous</w>
+        <synsetCount>2</synsetCount>
+    </word>
+    <word>
         <w>warrens</w>
         <synsetCount>5</synsetCount>
     </word>
     <word>
         <w>wheezing</w>
         <synsetCount>2</synsetCount>
+    </word>
+    <word>
+        <w>whilst</w>
+        <synsetCount>0</synsetCount>
     </word>
     <word>
         <w>whisper</w>
@@ -1174,6 +2726,26 @@
     <word>
         <w>whispers</w>
         <synsetCount>3</synsetCount>
+    </word>
+    <word>
+        <w>wilder</w>
+        <synsetCount>15</synsetCount>
+    </word>
+    <word>
+        <w>witchlike</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>workmanship</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>wraiths</w>
+        <synsetCount>1</synsetCount>
+    </word>
+    <word>
+        <w>wrappings</w>
+        <synsetCount>2</synsetCount>
     </word>
     <word>
         <w>ziggurats</w>
