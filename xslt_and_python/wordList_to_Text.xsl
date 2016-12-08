@@ -9,7 +9,8 @@
     <xsl:output method="text" indent="yes"/>
     
     <xsl:variable name="love" select="collection('../mark-up')"/>
-    <xsl:variable name="numWord" select="distinct-values($love//w/normalize-space())"/>
+    <xsl:variable name="numWord" select="distinct-values($love//w/lower-case(normalize-space()))"/>
+    <!--2016-12-08 ebb: attempting to lower-case all the words being output. -->
     <xsl:variable name="countWord" select="count($numWord)"/>
     
     
