@@ -6,11 +6,63 @@ body {
 	left: -300px;
 	top:-50px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	color: #F1F5F8;
 	
 }
 
+#tcoc_page {
+    
+    
+      margin: 400px; 
+  margin-top:50px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 1258px;
+   color : black;
+    z-index: -1;
+}
+
+#atmom_page {
+     margin: 400px; 
+  margin-top:50px;
+  
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 1258px;
+   color : black;
+    z-index: -1;
+    
+}
+
+.tsoi_b {
+    background: 		#FFFFE0;
+}
+
+.tcoc_b {
+    	background :#FFFFE0;
+}
+
+.atmom_b{
+    background:	#FFFFE0;
+}
+
+#tsoi_page {
+       margin: 400px; 
+  margin-top:50px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 1258px;
+   color : black;
+    z-index: -1;
+    
+}
 
 #page
 {
@@ -42,6 +94,7 @@ body {
  left: 325px;
 height:111px;
 width:858px;
+
 }
 
 .headerSubText{
@@ -63,6 +116,7 @@ text-align:left;
 font-size:34px;
 font-weight:bold;
 font-family:Arial, Helvetica, sans-serif;
+
 }
 
 .miniBody
@@ -94,6 +148,83 @@ float: right;
 line-height:75px;
 background-repeat: no-repeat;
 
+}
+
+#bar_atmom
+{
+background-image:url(creepy.jpg);
+background-size: cover;
+position: fixed;
+right: 0px;
+width:1160px;
+top: 0px;
+height:75px;
+float: right;
+line-height:75px;
+background-repeat: no-repeat;
+
+
+}
+
+#bar_atmom a
+{
+    font-size:16px;
+font-weight:bold;
+color:#FBFDFB;
+margin-left:40px;
+margin-right:40px;
+}
+
+
+
+#bar_tcoc
+{
+background-image:url(creepy.jpg);
+background-size: cover;
+position: fixed;
+right: 0px;
+width:1160px;
+top: 0px;
+height:75px;
+float: right;
+line-height:75px;
+background-repeat: no-repeat;
+
+
+}
+
+#bar_tcoc a
+{
+    font-size:16px;
+font-weight:bold;
+color:#FBFDFB;
+margin-left:40px;
+margin-right:40px;
+}
+
+
+#bar_tsoi
+{
+background-image:url(creepy.jpg);
+background-size: cover;
+position: fixed;
+right: 0px;
+width:1160px;
+top: 0px;
+height:75px;
+float: right;
+line-height:75px;
+background-repeat: no-repeat;
+
+}
+
+#bar_tsoi a
+{
+    font-size:16px;
+font-weight:bold;
+color:#FBFDFB;
+margin-left:40px;
+margin-right:40px;
 }
 
 #bar a

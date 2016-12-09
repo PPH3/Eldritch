@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
 
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head class="head">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        
-        <title>Mountains of Madness</title>
-    </head>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   </head>
       <body>
           AT THE MOUNTAINS OF MADNESS
          
@@ -2623,7 +2621,7 @@
          
          At the time, his shrieks were confined to the repetition of a single, mad word of
          all too obvious source: "Tekeli-li! Tekeli-li!"
-         
       </body>
-  
+ 
 </html>
+
