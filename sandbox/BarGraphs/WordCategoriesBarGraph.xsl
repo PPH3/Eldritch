@@ -10,34 +10,34 @@
       <!--SHADOW VARIABLES-->
       <xsl:variable name="totalWordsShadow" select="sum(descendant::word[descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
       <xsl:variable name="otherWordsShadow" select="sum(descendant::word[descendant::w[@type='other']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
-      <xsl:variable name="otherWordsShadowPerc" select="($otherWordsShadow div $totalWordsShadow) * 100"/>
+      <xsl:variable name="otherWordsShadowPerc" select="format-number(($otherWordsShadow div $totalWordsShadow) * 100,'##')"/>
       <xsl:variable name="relWordsShadow" select="sum(descendant::word[descendant::w[@type='religious']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
-      <xsl:variable name="relWordsShadowPerc" select="($relWordsShadow div $totalWordsShadow) * 100"/>
+      <xsl:variable name="relWordsShadowPerc" select="format-number(($relWordsShadow div $totalWordsShadow) * 100,'##')"/>
       <xsl:variable name="sciWordsShadow" select="sum(descendant::word[descendant::w[@type='scientific']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
-      <xsl:variable name="sciWordsShadowPerc" select="($sciWordsShadow div $totalWordsShadow) * 100"/>
+      <xsl:variable name="sciWordsShadowPerc" select="format-number(($sciWordsShadow div $totalWordsShadow) * 100,'##')"/>
       <xsl:variable name="gothWordsShadow" select="sum(descendant::word[descendant::w[@type='gothic']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
-      <xsl:variable name="gothWordsShadowPerc" select="($gothWordsShadow div $totalWordsShadow) * 100"/>
+      <xsl:variable name="gothWordsShadowPerc" select="format-number(($gothWordsShadow div $totalWordsShadow) * 100,'##')"/>
       <!--CALL VARIABLES-->
       <xsl:variable name="totalWordsCall" select="sum(descendant::word[descendant::work[title='The Call of Cthulhu'][xs:integer(localCount) gt 0]]/descendant::work[title='The Call of Cthulhu']/child::localCount)"/>
       <xsl:variable name="otherWordsCall" select="sum(descendant::word[descendant::w[@type='other']][descendant::work[title='The Call of Cthulhu'][xs:integer(localCount) gt 0]]/descendant::work[title='The Call of Cthulhu']/child::localCount)"/>
-      <xsl:variable name="otherWordsCallPerc" select="($otherWordsCall div $totalWordsCall) * 100"/>
+      <xsl:variable name="otherWordsCallPerc" select="format-number(($otherWordsCall div $totalWordsCall) * 100,'##')"/>
       <xsl:variable name="gothWordsCall" select="sum(descendant::word[descendant::w[@type='gothic']][descendant::work[title='The Call of Cthulhu'][xs:integer(localCount) gt 0]]/descendant::work[title='The Call of Cthulhu']/child::localCount)"/>
-      <xsl:variable name="gothWordsCallPerc" select="($gothWordsCall div $totalWordsCall) * 100"/>
+      <xsl:variable name="gothWordsCallPerc" select="format-number(($gothWordsCall div $totalWordsCall) * 100,'##')"/>
       <xsl:variable name="sciWordsCall" select="sum(descendant::word[descendant::w[@type='scientific']][descendant::work[title='The Call of Cthulhu'][xs:integer(localCount) gt 0]]/descendant::work[title='The Call of Cthulhu']/child::localCount)"/>
-      <xsl:variable name="sciWordsCallPerc" select="($sciWordsCall div $totalWordsCall) * 100"/>
+      <xsl:variable name="sciWordsCallPerc" select="format-number(($sciWordsCall div $totalWordsCall) * 100,'##')"/>
       <xsl:variable name="relWordsCall" select="sum(descendant::word[descendant::w[@type='religious']][descendant::work[title='The Call of Cthulhu'][xs:integer(localCount) gt 0]]/descendant::work[title='The Call of Cthulhu']/child::localCount)"/>
       <xsl:variable name="relWordsCallPerc" select="format-number(($relWordsCall div $totalWordsCall) * 100,'##')"/>
      <!--MOUNTAINS VARIABLES-->
       <xsl:variable name="totalWordsMtns" select="sum(descendant::word[descendant::work[title='At The Mountains of Madness'][xs:integer(localCount) gt 0]]/descendant::work[title='At The Mountains of Madness']/child::localCount)"/>
       <xsl:variable name="otherWordsMtns" select="sum(descendant::word[descendant::w[@type='other']][descendant::work[title='At The Mountains of Madness'][xs:integer(localCount) gt 0]]/descendant::work[title='At The Mountains of Madness']/child::localCount)"/>
-      <xsl:variable name="otherWordsMtnsPerc" select="($otherWordsMtns div $totalWordsMtns) * 100"/>
+      <xsl:variable name="otherWordsMtnsPerc" select="format-number(($otherWordsMtns div $totalWordsMtns) * 100,'##')"/>
       <xsl:variable name="relWordsMtns" select="sum(descendant::word[descendant::w[@type='religious']][descendant::work[title='At The Mountains of Madness'][xs:integer(localCount) gt 0]]/descendant::work[title='At The Mountains of Madness']/child::localCount)"/>
-      <xsl:variable name="relWordsMtnsPerc" select="($relWordsMtns div $totalWordsMtns) * 100"/>
+      <xsl:variable name="relWordsMtnsPerc" select="format-number(($relWordsMtns div $totalWordsMtns) * 100,'##')"/>
       <xsl:variable name="sciWordsMtns" select="sum(descendant::word[descendant::w[@type='scientific']][descendant::work[title='At The Mountains of Madness'][xs:integer(localCount) gt 0]]/descendant::work[title='At The Mountains of Madness']/child::localCount)"/>
-      <xsl:variable name="sciWordsMtnsPerc" select="($sciWordsMtns div $totalWordsMtns) * 100"/>
+      <xsl:variable name="sciWordsMtnsPerc" select="format-number(($sciWordsMtns div $totalWordsMtns) * 100,'##')"/>
       <xsl:variable name="gothWordsMtns" select="sum(descendant::word[descendant::w[@type='gothic']][descendant::work[title='At The Mountains of Madness'][xs:integer(localCount) gt 0]]/descendant::work[title='At The Mountains of Madness']/child::localCount)"/>
-      <xsl:variable name="gothWordsMtnsPerc" select="($gothWordsMtns div $totalWordsMtns) * 100"/>
-     <xsl:variable name="ySpacer" select="5"/>
+      <xsl:variable name="gothWordsMtnsPerc" select="format-number(($gothWordsMtns div $totalWordsMtns) * 100,'##')"/>
+      <xsl:variable name="ySpacer" select="5"/>
       <xsl:variable name="xSpacer" select="10"/>
      
       <xsl:template match="/">
