@@ -15,7 +15,8 @@
                 <line x1="150" y1="600" x2="750" y2="600" stroke="black" stroke-width="3"/>
                 <!--y axis-->
                 <line x1="150" y1="600" x2="150" y2="100" stroke="black" stroke-width="3"/>
-            
+                <!--grid lines-->
+                
             
             
             

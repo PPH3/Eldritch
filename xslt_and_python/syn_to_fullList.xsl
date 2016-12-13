@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="3.0">
-    <xsl:output method="xml" indent="yes"/>
+    <xsl:output method="xml" indent="yes"/> 
     <xsl:variable name="synset" select="document('synset_info.xml')"/>
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:template match="w">
