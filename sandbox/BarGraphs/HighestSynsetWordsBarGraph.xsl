@@ -9,15 +9,20 @@
             select="descendant::word[synsetCount = max($synsetFile//descendant::word//synsetCount)]"/>
       <xsl:variable name="mostAmbigWordSynsetCount"
             select="descendant::word[synsetCount = max($synsetFile//descendant::word//synsetCount)]//synsetCount"/>
-      <xsl:variable name="range"
-            select="subsequence($synsetFile//synsetCount, $mostAmbigWordSynsetCount, 10)"/>
 
       <xsl:template match="/">
-            <xsl:comment>Word with most synsets: <xsl:value-of select="$mostAmbigWord//descendant::w"/> 
-                  Synset count: <xsl:value-of select="$mostAmbigWordSynsetCount"/></xsl:comment>
+            <xsl:comment><xsl:value-of select="$mostAmbigWord"/><xsl:text>: </xsl:text><xsl:value-of select="$mostAmbigWordSynsetCount"/><xsl:text>          </xsl:text></xsl:comment>
 
-            <xsl:value-of select="$range"/>
-            <!-- Well, that isnt working exactly like I expected. -->
+            <xsl:for-each select="$synsetFile//synsetCount">
+                  <xsl:sort order="descending"/>
+                  <xsl:if test="position() &lt;= 10">
+                        <xsl:value-of select="preceding-sibling::w"/>
+                        <xsl:text>; </xsl:text>
+                        <xsl:value-of select="current()"/>
+                        <xsl:text>     ***     </xsl:text>
+                  </xsl:if>
+            </xsl:for-each>
+            <!-- RJP:the first word should be wilder with synset of 15 but for some reason it is starting as if the highest synset count is 9. It is as if fn:position cannot calculate double digits -->
 
       </xsl:template>
 </xsl:stylesheet>
