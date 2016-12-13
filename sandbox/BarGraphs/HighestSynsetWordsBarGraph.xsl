@@ -13,12 +13,12 @@
       <xsl:template match="/">
             <xsl:comment><xsl:value-of select="$mostAmbigWord"/><xsl:text>: </xsl:text><xsl:value-of select="$mostAmbigWordSynsetCount"/><xsl:text>          </xsl:text></xsl:comment>
 
-            <xsl:for-each select="$synsetFile//synsetCount">
-                  <xsl:sort order="descending"/>
+            <xsl:for-each select="descendant::word">
+                  <xsl:sort select="descendant::synsetCount/number()" order="descending"/>
                   <xsl:if test="position() &lt;= 10">
-                        <xsl:value-of select="preceding-sibling::w"/>
+                        <xsl:value-of select="descendant::w"/>
                         <xsl:text>; </xsl:text>
-                        <xsl:value-of select="current()"/>
+                        <xsl:value-of select="descendant::synsetCount"/>
                         <xsl:text>     ***     </xsl:text>
                   </xsl:if>
             </xsl:for-each>
