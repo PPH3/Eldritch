@@ -7,30 +7,33 @@
     version="3.0">
     
     <xsl:output method="xml" indent="yes"/>
-    
+ <!--2016-12-13 ebb: This XSLT pulls words from the collection, and lower-cases them and takes distinct-values, and outputs the basic structure of the project's Index of Words, with total counts. 
+     The output of this file will NOT include synset information, since we need to map that back onto it after running Python over WordNet.  -->   
     <xsl:variable name="love" select="collection('../mark-up')"/>
     <xsl:variable name="numWord" select="distinct-values($love//w/lower-case(normalize-space()))"/>
     <xsl:variable name="countWord" select="count($numWord)"/>
     <xsl:variable name="titleColl" select="$love//titleStmt/title"/>
     
     <xsl:template match="/">
-      <xml> <listAlph>
+      <xml> <list>
         <xsl:comment>
             Distinct-values count: <xsl:value-of select="$countWord"/>
         </xsl:comment>
         
             <xsl:for-each select="$numWord">
                 <xsl:sort/>
+               <!--Uncomment this to output a list based on count. 
+    <xsl:sort select="count($love//w[. = current()])" order="descending"/>-->
                 <xsl:variable name="currWord" select="current()"/>
+              
                 <word>
-                    <w><xsl:value-of select="."/></w>
+                    <w><xsl:value-of select="$currWord"/></w>
                     <lovecraftUse>
                         
-                 <totalCount><xsl:value-of select="count($love//w[. = current()])"/></totalCount>
+                 <totalCount><xsl:value-of select="count($love//w[lower-case(.) = current()])"/></totalCount>
                         <xsl:for-each select="$titleColl">
-                            <xsl:comment>Current word is <xsl:value-of select="$currWord"/></xsl:comment>
                             <work><title><xsl:value-of select="."/></title>
-                                <localCount><xsl:value-of select="count(ancestor::TEI//text//w[. = $currWord])"/></localCount>
+                                <localCount><xsl:value-of select="count(ancestor::TEI//text//w[lower-case(.) = $currWord])"/></localCount>
                                 
                             </work>
                             
@@ -40,51 +43,11 @@
                     
                 </word>
                 
-<!--                
-                <listNum>
-                    <xsl:value-of select="."/>(<xsl:value-of select="count(.)"/>)
-                </listNum>-->
+
         </xsl:for-each>
-       </listAlph>
+       </list>
         
-        <listCount>
-            <xsl:comment>
-            Distinct-values count: <xsl:value-of select="$countWord"/>
-        </xsl:comment>
-            
-            <xsl:for-each select="$numWord">
-                
-                <xsl:sort select="count($love//w[. = current()])" order="descending"/>
-                <xsl:variable name="currentWord" select="current()"/>
-              
-                <word>
-                    <w><xsl:value-of select="."/></w>
-                    <lovecraftUse>
-                        
-                        <totalCount><xsl:value-of select="count($love//w[. = current()])"/></totalCount>
-                        
-                            
-                 <xsl:for-each select="$titleColl">
-                    <xsl:comment>Current word is <xsl:value-of select="$currentWord"/></xsl:comment>
-                               <work><title><xsl:value-of select="."/></title>
-                            <localCount><xsl:value-of select="count(ancestor::TEI//text//w[. = $currentWord])"/></localCount>
-                           
-                        </work>
-                                
-                            </xsl:for-each>
-                        
-                        
-                    </lovecraftUse>
-                    
-                    
-                </word>
-                
-                <!--                
-                <listNum>
-                    <xsl:value-of select="."/>(<xsl:value-of select="count(.)"/>)
-                </listNum>-->
-            </xsl:for-each>
-        </listCount>
+       
       </xml>
     </xsl:template>
 </xsl:stylesheet>
