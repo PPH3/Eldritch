@@ -10,28 +10,56 @@
       <xsl:variable name="mostAmbigWordSynsetCount"
             select="descendant::word[synsetCount = max($synsetFile//descendant::word//synsetCount)]//synsetCount"/>
 
+      <xsl:variable name="ySpacer" select="20"/>
       <xsl:template match="/">
-            <xsl:comment><xsl:value-of select="$mostAmbigWord"/><xsl:text>: </xsl:text><xsl:value-of select="$mostAmbigWordSynsetCount"/><xsl:text>          </xsl:text></xsl:comment>
+            <svg width="100%" height="100%">
+                  <g transform="translate(100 400)">
+                        <!-- X-Axis -->
+                        <line x1="0" x2="1000" y1="0" y2="0" stroke="black" stroke-width="5"/>
+                        <!-- Y-Axis -->
+                        <line x1="0" x2="0" y1="0" y2="-{15 * $ySpacer}" stroke="black"
+                              stroke-width="5"/>
+                        
+                        <xsl:for-each select="descendant::word">
+                              <xsl:sort select="descendant::synsetCount/number()" order="descending"/>
+                              <xsl:if test="position() &lt;= 5">
+                                    <xsl:variable name="totalCount" select="descendant::totalCount"/>
+                                    <xsl:variable name="CallCount"
+                                          select="descendant::work[title = 'The Call of Cthulhu']/localCount"/>
+                                    <xsl:variable name="MtnsCount"
+                                          select="descendant::work[title = 'At The Mountains of Madness']/localCount"/>
+                                    <xsl:variable name="ShadowsCount"
+                                          select="descendant::work[title = 'The Shadow Over Innsmouth']/localCount"/>
 
-            <xsl:for-each select="descendant::word">
-                  <xsl:sort select="descendant::synsetCount/number()" order="descending"/>
-                  <xsl:if test="position() &lt;= 10">
-                        <xsl:value-of select="descendant::w"/>
-                        <xsl:text>; </xsl:text>
-                        <xsl:value-of select="descendant::synsetCount"/>
-                        <xsl:text>     ***     </xsl:text>
-                  </xsl:if>
-            </xsl:for-each>
-            <!-- RJP:the first word should be wilder with synset of 15 but for some reason it is starting as if the highest synset count is 9. It is as if fn:position cannot calculate double digits -->
 
+                                    <xsl:comment>TOTAL: <xsl:value-of select="$totalCount"/></xsl:comment>
+                                    <xsl:comment>Call: <xsl:value-of select="$CallCount"/></xsl:comment>
+                                    <xsl:comment>Mtns: <xsl:value-of select="$MtnsCount"/></xsl:comment>
+                                    <xsl:comment>Shadows: <xsl:value-of select="$ShadowsCount"/></xsl:comment>
+
+                              </xsl:if>
+                        </xsl:for-each>
+                        
+                        <xsl:for-each select="descendant::word">
+                              <xsl:sort select="descendant::synsetCount/number()" order="ascending"/>
+                              <xsl:if test="position() &lt;= 5">
+                                    <xsl:variable name="totalCount" select="descendant::totalCount"/>
+                                    <xsl:variable name="CallCount"
+                                          select="descendant::work[title = 'The Call of Cthulhu']/localCount"/>
+                                    <xsl:variable name="MtnsCount"
+                                          select="descendant::work[title = 'At The Mountains of Madness']/localCount"/>
+                                    <xsl:variable name="ShadowsCount"
+                                          select="descendant::work[title = 'The Shadow Over Innsmouth']/localCount"/>
+
+
+                                    <xsl:comment>TOTAL: <xsl:value-of select="$totalCount"/></xsl:comment>
+                                    <xsl:comment>Call: <xsl:value-of select="$CallCount"/></xsl:comment>
+                                    <xsl:comment>Mtns: <xsl:value-of select="$MtnsCount"/></xsl:comment>
+                                    <xsl:comment>Shadows: <xsl:value-of select="$ShadowsCount"/></xsl:comment>
+
+                              </xsl:if>
+                        </xsl:for-each>
+                  </g>
+            </svg>
       </xsl:template>
 </xsl:stylesheet>
-<!--<svg width="100%" height="100%">
-      <g transform="translate(50 500)">
-            <!-\- Y Axis -\->
-            <line x1="75" x2="75" y1="0" y2="-450" stroke="black" stroke-width="1"/>
-            <!-\- X Axis -\->
-            <line x1="75" x2="1200" y1="0" y2="0" stroke="black" stroke-width="1"/>
-            
-      </g>
-</svg>-->
