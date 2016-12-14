@@ -39,6 +39,10 @@ body {
     
 }
 
+.about_b{
+     background: 		#FFFFE0;
+}
+
 .tsoi_b {
     background: 		#FFFFE0;
 }
@@ -50,6 +54,19 @@ body {
 .atmom_b{
     background:	#FFFFE0;
 }
+
+#about_page{
+    margin: 700px; 
+  margin-top:50px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 758px;
+   color : white;
+    z-index: -1;
+}
+
 
 #tsoi_page {
        margin: 400px; 
@@ -64,15 +81,20 @@ body {
     
 }
 
+
+
 #page
 {
-  margin: auto; 
-  margin-top:25px;
+      margin: 700px; 
+  margin-top:50px;
   display: block; 
   height:auto;
   position: relative; 
   overflow: hidden; 
-  width: 858px;
+  width: 658px;
+   color : black;
+    z-index: -1;
+     font-family: "Times New Roman", Times, serif;
 }
 
 #background {
@@ -109,7 +131,7 @@ width:858px;
 .headerText
 {
 position:relative;
-left:325px;
+left:300px;
 top:70px;
 color: #feb645;
 text-align:left;
@@ -118,6 +140,20 @@ font-weight:bold;
 font-family:Arial, Helvetica, sans-serif;
 
 }
+
+.home_headerText
+{
+position:relative;
+left:300px;
+top:70px;
+color: #feb645;
+text-align:left;
+font-size:34px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
 
 .miniBody
 {
@@ -140,7 +176,7 @@ opacity: .9;
 background-image:url(creepy.jpg);
 background-size: cover;
 position: fixed;
-right: 10px;
+right: 0px;
 width:1160px;
 top: 0px;
 height:75px;
@@ -175,6 +211,27 @@ margin-left:40px;
 margin-right:40px;
 }
 
+#bar_about {
+background-image:url(creepy.jpg);
+background-size: cover;
+position: fixed;
+right: 0px;
+width:1160px;
+top: 0px;
+height:75px;
+float: right;
+line-height:75px;
+background-repeat: no-repeat;
+
+}
+
+#bar_about a {
+     font-size:16px;
+font-weight:bold;
+color:#FBFDFB;
+margin-left:40px;
+margin-right:40px;
+}
 
 
 #bar_tcoc
