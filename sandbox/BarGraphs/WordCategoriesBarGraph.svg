@@ -31,7 +31,7 @@
      width="100%"
      height="100%"
      viewBox="0 0 1700 800">
-   <g transform="translate(100 600)">
+   <g transform="translate(100 570)">
       <line x1="0"
             x2="700"
             y1="0"
@@ -50,27 +50,31 @@
             y2="-170"
             stroke="#323021"
             stroke-width="70"/>
+      <text x="200" y="-85" text-anchor="middle" stroke="#d80ed8">34%</text>
       <line x1="200"
             x2="200"
             y1="-170"
             y2="-375"
             stroke="#5e846d"
             stroke-width="70"/>
+      <text x="200" y="-258" text-anchor="middle" stroke="#d80ed8">41%</text>
       <line x1="200"
             x2="200"
             y1="-375"
             y2="-415"
             stroke="#98a2a1"
             stroke-width="70"/>
+      <text x="200" y="-393" text-anchor="middle" stroke="#d80ed8">17%</text>
       <line x1="200"
             x2="200"
             y1="-415"
             y2="-500"
             stroke="#bdcfc6"
             stroke-width="70"/>
+      <text x="200" y="-460" text-anchor="middle" stroke="#d80ed8">17%</text>
       <text x="200"
-            y="8"
-            font-size="20"
+            y="10"
+            font-size="23"
             text-anchor="end"
             transform="rotate(-45 200, 15)">At The Mountains of Madness</text>
       <line x1="400"
@@ -79,18 +83,21 @@
             y2="-155"
             stroke="#323021"
             stroke-width="70"/>
+      <text x="400" y="-80" text-anchor="middle" stroke="#d80ed8">31%</text>
       <line x1="400"
             x2="400"
             y1="-155"
             y2="-270"
             stroke="#5e846d"
             stroke-width="70"/>
+      <text x="400" y="-200" text-anchor="middle" stroke="#d80ed8">23%</text>
       <line x1="400"
             x2="400"
             y1="-270"
             y2="-420"
             stroke="#98a2a1"
             stroke-width="70"/>
+      <text x="400" y="-330" text-anchor="middle" stroke="#d80ed8">30%</text>
       <line x1="400"
             x2="400"
             y1="-420"
@@ -98,10 +105,11 @@
             stroke="#bdcfc6"
             stroke-width="70"/>
       <text x="400"
-            y="8"
-            font-size="20"
+            y="10"
+            font-size="23"
             text-anchor="end"
             transform="rotate(-45 400, 15)">The Call of Cthulhu</text>
+      <text x="400" y="-450" text-anchor="middle" stroke="#d80ed8">16%</text>
       <line x1="600"
             x2="600"
             y1="0"
@@ -115,13 +123,14 @@
             y2="-190"
             stroke="#5e846d"
             stroke-width="70"/>
-      <text x="600" y="-" text-anchor="middle" stroke="#d80ed8">11%</text>
+      <text x="600" y="-152" text-anchor="middle" stroke="#d80ed8">11%</text>
       <line x1="600"
             x2="600"
             y1="-190"
             y2="-260"
             stroke="#98a2a1"
             stroke-width="70"/>
+      <text x="600" y="-222" text-anchor="middle" stroke="#d80ed8">14%</text>
       <line x1="600"
             x2="600"
             y1="-260"
@@ -130,8 +139,8 @@
             stroke-width="70"/>
       <text x="600" y="-380" text-anchor="middle" stroke="#d80ed8">49%</text>
       <text x="600"
-            y="8"
-            font-size="20"
+            y="10"
+            font-size="23"
             text-anchor="end"
             transform="rotate(-45 600, 15)">The Shadow Over Innsmouth</text>
       <text x="-20" y="-125" font-size="15" text-anchor="middle">25%</text>
@@ -166,5 +175,46 @@
             stroke="black"
             stroke-width="1"
             stroke-dasharray="5"/>
+      <text x="805" y="-293" text-anchor="center" font-size="20px">Other</text>
+      <text x="805" y="-274" text-anchor="start" font-size="20px">Scientific</text>
+      <text x="805" y="-252" text-anchor="start" font-size="20px">Religious</text>
+      <text x="805" y="-230" text-anchor="start" font-size="20px">Gothic</text>
+      <text x="780" y="-330" text-anchor="start" font-size="20px">Key</text>
+      <line x1="780"
+            x2="815"
+            y1="-320"
+            y2="-320"
+            stroke="black"
+            stroke-width="3"/>
+      <line x1="760"
+            x2="790"
+            y1="-300"
+            y2="-300"
+            stroke="#323021"
+            stroke-width="20"/>
+      <line x1="760"
+            x2="790"
+            y1="-280"
+            y2="-280"
+            stroke="#5e846d"
+            stroke-width="20"/>
+      <line x1="760"
+            x2="790"
+            y1="-260"
+            y2="-260"
+            stroke="#98a2a1"
+            stroke-width="20"/>
+      <line x1="760"
+            x2="790"
+            y1="-240"
+            y2="-240"
+            stroke="#bdcfc6"
+            stroke-width="20"/>
+      <text x="-60"
+            y="-250"
+            text-anchor="middle"
+            font-size="20pt"
+            style="writing-mode: tb;">Percentage of Word Type</text>
+      <text x="331" y="-525" text-anchor="middle" font-size="30pt">Percentage of Word Types Per Text</text>
    </g>
 </svg>
