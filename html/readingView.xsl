@@ -8,19 +8,14 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
     
-    <xsl:output method="xhtml" encoding="utf-8" 
+    <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    
-    <!--<xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
-        omit-xml-declaration="yes"/>
-  2016-12-14 ebb: The w3C validator is now issuing a warning about the legacy-compat setting, so I think we'd better remove it. 
-    -->
     
     <xsl:variable name="wordList" select="document('../xslt_and_python/fullList_syn.xml')"/>  
     <xsl:template match="/">      
       <html lang="en">
           <head><title><xsl:value-of select="//titleStmt/title"/></title>
-        <link rel="stylesheet" type="text/css" href="Love_Code.css" />
+        <link rel="stylesheet" type="text/css" href="Love_Code.css"/>
           </head>
               <body>
                   <!--#include virtual="headerSSI.html" -->

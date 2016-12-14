@@ -134,7 +134,7 @@
       <line x1="600"
             x2="600"
             y1="-255"
-            y2="-500"
+            y2="-495"
             stroke="#bdcfc6"
             stroke-width="70"/>
       <text x="600" y="-380" text-anchor="middle" stroke="#d80ed8">49%</text>

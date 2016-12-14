@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
       xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xpath-default-namespace="http://eldritch.code.newtfire.org"
       exclude-result-prefixes="xs"
       xmlns="http://www.w3.org/2000/svg">
       <xsl:output method="xml" indent="yes"/>
@@ -10,7 +11,7 @@
       <!--SHADOW VARIABLES-->
       <xsl:variable name="totalWordsShadow" select="sum(descendant::word[descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
       <xsl:variable name="otherWordsShadow" select="sum(descendant::word[descendant::w[@type='other']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
-      <xsl:variable name="otherWordsShadowPerc" select="format-number(($otherWordsShadow div $totalWordsShadow) * 100,'##')"/>
+      <xsl:variable name="otherWordsShadowPerc" select="$otherWordsShadow div $totalWordsShadow * 100"/>
       <xsl:variable name="relWordsShadow" select="sum(descendant::word[descendant::w[@type='religious']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
       <xsl:variable name="relWordsShadowPerc" select="format-number(($relWordsShadow div $totalWordsShadow) * 100,'##')"/>
       <xsl:variable name="sciWordsShadow" select="sum(descendant::word[descendant::w[@type='scientific']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
@@ -81,7 +82,7 @@
                         <!--x HASHES AND BARS CUZ FUCK ORGANIZATION-->
                         <xsl:for-each select="1 to 3">
                               <xsl:if test="current() = 1">
-                                    <!--Other Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="0" y2="-{xs:integer($otherWordsMtnsPerc) * $ySpacer}" stroke="#323021" stroke-width="70"/>
+                                    <!--Other Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="0" y2="-{number($otherWordsMtnsPerc) * $ySpacer}" stroke="#323021" stroke-width="70"/>
                                     <text x="{current() * 20 * $xSpacer}" y="-85" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$otherWordsMtnsPerc"/><xsl:text>%</xsl:text></text>
                                     <!--Scientific Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{xs:integer($otherWordsMtnsPerc) * $ySpacer}" y2="-{(xs:integer($sciWordsMtnsPerc) + xs:integer($otherWordsMtnsPerc)) * $ySpacer}" stroke="#5e846d" stroke-width="70"/>
                                     <text x="{current() * 20 * $xSpacer}" y="-258" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$sciWordsMtnsPerc"/><xsl:text>%</xsl:text></text>
@@ -103,7 +104,7 @@
                                     <text x="{current() * 20 * $xSpacer}" y="-450" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$gothWordsCallPerc"/><xsl:text>%</xsl:text></text>
                               </xsl:if>
                               <xsl:if test="current() = 3">
-                                    <!--Other Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="0" y2="-{xs:integer($otherWordsShadowPerc) * $ySpacer}" stroke="#323021" stroke-width="70"/>
+                                    <!--Other Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="0" y2="-{$otherWordsShadowPerc * $ySpacer}" stroke="#323021" stroke-width="70"/>
                                     <text x="{current() * 20 * $xSpacer}" y="-65" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$otherWordsShadowPerc"/><xsl:text>%</xsl:text></text>
                                     <!--Scientific Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{xs:integer($otherWordsShadowPerc) * $ySpacer}" y2="-{(xs:integer($sciWordsShadowPerc) + xs:integer($otherWordsShadowPerc)) * $ySpacer}" stroke="#5e846d" stroke-width="70"/>
                                     <text x="{current() * 20 * $xSpacer}" y="-152" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$sciWordsShadowPerc"/><xsl:text>%</xsl:text></text>
