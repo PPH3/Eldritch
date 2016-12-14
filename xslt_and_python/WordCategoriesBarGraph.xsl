@@ -5,8 +5,8 @@
       xmlns="http://www.w3.org/2000/svg">
       <xsl:output method="xml" indent="yes"/>
       <!--GLOBAL VARIABLES-->
-<!--      <xsl:variable name="synsetFile" select="document('fullList_syn.xml')"/>
--->      <xsl:variable name="totalWords" select="sum(descendant::word//totalCount)"/>
+      <xsl:variable name="synsetFile" select="document('fullList_syn.xml')"/>
+      <xsl:variable name="totalWords" select="sum(descendant::word//totalCount)"/>
       <!--SHADOW VARIABLES-->
       <xsl:variable name="totalWordsShadow" select="sum(descendant::word[descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
       <xsl:variable name="otherWordsShadow" select="sum(descendant::word[descendant::w[@type='other']][descendant::work[title='The Shadow Over Innsmouth'][xs:integer(localCount) gt 0]]/descendant::work[title='The Shadow Over Innsmouth']/child::localCount)"/>
@@ -109,7 +109,7 @@
                                     <text x="{current() * 20 * $xSpacer}" y="-152" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$sciWordsShadowPerc"/><xsl:text>%</xsl:text></text>
                                     <!--Religious Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{(xs:integer($sciWordsShadowPerc) + xs:integer($otherWordsShadowPerc)) * $ySpacer}" y2="-{(xs:integer($sciWordsShadowPerc) + xs:integer($otherWordsShadowPerc) + (xs:integer($relWordsShadowPerc))) * $ySpacer}" stroke="#98a2a1" stroke-width="70"/>
                                     <text x="{current() * 20 * $xSpacer}" y="-222" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$relWordsShadowPerc"/><xsl:text>%</xsl:text></text>
-                                    <!--Gothic Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{(xs:integer($sciWordsShadowPerc) + xs:integer($otherWordsShadowPerc) + xs:integer($relWordsShadowPerc)) * $ySpacer}" y2="-{(xs:integer($sciWordsShadowPerc) + xs:integer($otherWordsShadowPerc) + xs:integer($relWordsShadowPerc) + xs:integer($gothWordsShadowPerc)) * $ySpacer}" stroke="#bdcfc6" stroke-width="70"/>
+                                    <!--Gothic Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{(xs:integer($sciWordsShadowPerc) + xs:integer($otherWordsShadowPerc) + xs:integer($relWordsShadowPerc)) * $ySpacer}" y2="-{(xs:integer($sciWordsShadowPerc) + xs:integer($otherWordsShadowPerc) + xs:integer($relWordsShadowPerc) + xs:integer($gothWordsShadowPerc)) * $ySpacer -5}" stroke="#bdcfc6" stroke-width="70"/>
                                     <text x="{current() * 20 * $xSpacer}" y="-380" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$gothWordsShadowPerc"/><xsl:text>%</xsl:text></text>
                                     <text x="{current() * 20  * $xSpacer}" y="10" font-size="23" text-anchor="end" transform="rotate(-45 {current() * 20  * $xSpacer}, 15)">The Shadow Over Innsmouth</text>
                               </xsl:if>

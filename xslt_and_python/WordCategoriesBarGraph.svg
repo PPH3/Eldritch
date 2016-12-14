@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Total Words: 1621-->
-<!--Total Marked Shadows Words: 501-->
-<!--Marked Shadows Other Words: 136-->
+<!--Total Words: 1640-->
+<!--Total Marked Shadows Words: 515-->
+<!--Marked Shadows Other Words: 138-->
 <!--Marked Shadows Other Words Percent: 27-->
-<!--Marked Shadows Religious Words: 68-->
+<!--Marked Shadows Religious Words: 70-->
 <!--Marked Shadows Religious Words Percent: 14-->
-<!--Marked Shadows Scientific Words: 53-->
-<!--Marked Shadows Scientific Words Percent: 11-->
-<!--Marked Shadows Gothic Words: 244-->
+<!--Marked Shadows Scientific Words: 54-->
+<!--Marked Shadows Scientific Words Percent: 10-->
+<!--Marked Shadows Gothic Words: 253-->
 <!--Marked Shadows Gothic Words Percent: 49-->
-<!--Total Marked Call Words: 131-->
-<!--Marked Call Other Words: 41-->
-<!--Marked Call Other Words: 31-->
+<!--Total Marked Call Words: 132-->
+<!--Marked Call Other Words: 42-->
+<!--Marked Call Other Words: 32-->
 <!--Marked Call Religious Words: 39-->
 <!--Marked Call Religious Words Percent: 30-->
 <!--Marked Call Scientific Words: 30-->
 <!--Marked Call Scientific Words Percent: 23-->
 <!--Marked Call Gothic Words: 21-->
 <!--Marked Call Gothic Words Percent: 16-->
-<!--Total Marked Mtns Words: 989-->
+<!--Total Marked Mtns Words: 993-->
 <!--Marked Mtns Other Words: 333-->
 <!--Marked Mtns Other Words Percent: 34-->
 <!--Marked Mtns Religious Words: 83-->
 <!--Marked Mtns Religious Words Percent: 8-->
-<!--Marked Mtns Scientific Words: 405-->
+<!--Marked Mtns Scientific Words: 407-->
 <!--Marked Mtns Scientific Words Percent: 41-->
-<!--Marked Mtns Gothic Words: 168-->
+<!--Marked Mtns Gothic Words: 170-->
 <!--Marked Mtns Gothic Words Percent: 17-->
 <svg xmlns="http://www.w3.org/2000/svg"
      width="100%"
@@ -80,28 +80,28 @@
       <line x1="400"
             x2="400"
             y1="0"
-            y2="-155"
+            y2="-160"
             stroke="#323021"
             stroke-width="70"/>
-      <text x="400" y="-80" text-anchor="middle" stroke="#d80ed8">31%</text>
+      <text x="400" y="-80" text-anchor="middle" stroke="#d80ed8">32%</text>
       <line x1="400"
             x2="400"
-            y1="-155"
-            y2="-270"
+            y1="-160"
+            y2="-275"
             stroke="#5e846d"
             stroke-width="70"/>
       <text x="400" y="-200" text-anchor="middle" stroke="#d80ed8">23%</text>
       <line x1="400"
             x2="400"
-            y1="-270"
-            y2="-420"
+            y1="-275"
+            y2="-425"
             stroke="#98a2a1"
             stroke-width="70"/>
       <text x="400" y="-330" text-anchor="middle" stroke="#d80ed8">30%</text>
       <line x1="400"
             x2="400"
-            y1="-420"
-            y2="-500"
+            y1="-425"
+            y2="-505"
             stroke="#bdcfc6"
             stroke-width="70"/>
       <text x="400"
@@ -120,20 +120,20 @@
       <line x1="600"
             x2="600"
             y1="-135"
-            y2="-190"
+            y2="-185"
             stroke="#5e846d"
             stroke-width="70"/>
-      <text x="600" y="-152" text-anchor="middle" stroke="#d80ed8">11%</text>
+      <text x="600" y="-152" text-anchor="middle" stroke="#d80ed8">10%</text>
       <line x1="600"
             x2="600"
-            y1="-190"
-            y2="-260"
+            y1="-185"
+            y2="-255"
             stroke="#98a2a1"
             stroke-width="70"/>
       <text x="600" y="-222" text-anchor="middle" stroke="#d80ed8">14%</text>
       <line x1="600"
             x2="600"
-            y1="-260"
+            y1="-255"
             y2="-500"
             stroke="#bdcfc6"
             stroke-width="70"/>
