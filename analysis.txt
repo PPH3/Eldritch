@@ -1,0 +1,18 @@
+Analysis table
+The table contains a total count of 666 words. This final set represents the end of our rigorous process of attrition, where we selected the most relevant terms. The word type signifies the attributes which we applied to the words to classify the word’s context. This is clarified in either “religious,” “scientific,” “gothic,” or “other.” The synset count delineates the number of synonyms each word has and the various contexts in which they can be used. These were acquired via python and the accompanying Wordnet database, and can be observed in greater detail in the far right column. Three stories are listed: “The Call of Cthulhu,” “At the Mountains of Madness,” and “The Shadow Over Innsmouth,” respectively. You can discern the number of times a word occurs in each text in the accompanying columns, along with the total word count.
+Overall, this table provides the audience with the materials to analyze the ambiguity of the words cited.
+
+Analysis graph
+The bar graph illustrates percentages regarding the three texts and how often certain words appear in the stories based on the attributes attached to the words. The tags, “other,” “religious,” “scientific,” and “gothic” are coded to apply context to the words. Here’s what our research yielded: 
+*Percentages based on total words within each text*
+At the Mountains of Madness:
+34% other 41% scientific 17% religious 17% gothic
+
+The Call of Cthulhu:
+32% other 23% scientific 30% religious 16% gothic
+The Shadow Over Innsmouth:
+27% other 10% scientific 14% religious 49% gothic
+
+
+
+
