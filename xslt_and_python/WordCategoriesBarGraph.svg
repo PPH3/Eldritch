@@ -2,31 +2,31 @@
 <!--Total Words: 1640-->
 <!--Total Marked Shadows Words: 515-->
 <!--Marked Shadows Other Words: 138-->
-<!--Marked Shadows Other Words Percent: 27-->
+<!--Marked Shadows Other Words Percent: 26.796116504854368-->
 <!--Marked Shadows Religious Words: 70-->
-<!--Marked Shadows Religious Words Percent: 14-->
+<!--Marked Shadows Religious Words Percent: 13.592233009708737-->
 <!--Marked Shadows Scientific Words: 54-->
-<!--Marked Shadows Scientific Words Percent: 10-->
+<!--Marked Shadows Scientific Words Percent: 10.485436893203884-->
 <!--Marked Shadows Gothic Words: 253-->
-<!--Marked Shadows Gothic Words Percent: 49-->
+<!--Marked Shadows Gothic Words Percent: 49.12621359223301-->
 <!--Total Marked Call Words: 132-->
 <!--Marked Call Other Words: 42-->
-<!--Marked Call Other Words: 32-->
+<!--Marked Call Other Words: 31.818181818181817-->
 <!--Marked Call Religious Words: 39-->
-<!--Marked Call Religious Words Percent: 30-->
+<!--Marked Call Religious Words Percent: 29.545454545454547-->
 <!--Marked Call Scientific Words: 30-->
-<!--Marked Call Scientific Words Percent: 23-->
+<!--Marked Call Scientific Words Percent: 22.727272727272727-->
 <!--Marked Call Gothic Words: 21-->
-<!--Marked Call Gothic Words Percent: 16-->
+<!--Marked Call Gothic Words Percent: 15.909090909090908-->
 <!--Total Marked Mtns Words: 993-->
 <!--Marked Mtns Other Words: 333-->
-<!--Marked Mtns Other Words Percent: 34-->
+<!--Marked Mtns Other Words Percent: 33.53474320241692-->
 <!--Marked Mtns Religious Words: 83-->
-<!--Marked Mtns Religious Words Percent: 8-->
+<!--Marked Mtns Religious Words Percent: 8.358509566968781-->
 <!--Marked Mtns Scientific Words: 407-->
-<!--Marked Mtns Scientific Words Percent: 41-->
+<!--Marked Mtns Scientific Words Percent: 40.98690835850957-->
 <!--Marked Mtns Gothic Words: 170-->
-<!--Marked Mtns Gothic Words Percent: 17-->
+<!--Marked Mtns Gothic Words Percent: 17.119838872104733-->
 <svg xmlns="http://www.w3.org/2000/svg"
      width="100%"
      height="100%"
@@ -47,31 +47,31 @@
       <line x1="200"
             x2="200"
             y1="0"
-            y2="-170"
+            y2="-167.67371601208458"
             stroke="#323021"
             stroke-width="70"/>
-      <text x="200" y="-85" text-anchor="middle" stroke="#d80ed8">34%</text>
+      <text x="200" y="-85" text-anchor="middle" stroke="#d80ed8">33.53474320241692%</text>
       <line x1="200"
             x2="200"
-            y1="-170"
-            y2="-375"
+            y1="-167.67371601208458"
+            y2="-372.60825780463244"
             stroke="#5e846d"
             stroke-width="70"/>
-      <text x="200" y="-258" text-anchor="middle" stroke="#d80ed8">41%</text>
+      <text x="200" y="-258" text-anchor="middle" stroke="#d80ed8">40.98690835850957%</text>
       <line x1="200"
             x2="200"
-            y1="-375"
-            y2="-415"
+            y1="-372.60825780463244"
+            y2="-414.4008056394763"
             stroke="#98a2a1"
             stroke-width="70"/>
-      <text x="200" y="-393" text-anchor="middle" stroke="#d80ed8">17%</text>
+      <text x="200" y="-393" text-anchor="middle" stroke="#d80ed8">17.119838872104733%</text>
       <line x1="200"
             x2="200"
-            y1="-415"
+            y1="-414.4008056394763"
             y2="-500"
             stroke="#bdcfc6"
             stroke-width="70"/>
-      <text x="200" y="-460" text-anchor="middle" stroke="#d80ed8">17%</text>
+      <text x="200" y="-460" text-anchor="middle" stroke="#d80ed8">17.119838872104733%</text>
       <text x="200"
             y="10"
             font-size="23"
@@ -80,28 +80,28 @@
       <line x1="400"
             x2="400"
             y1="0"
-            y2="-160"
+            y2="-159.0909090909091"
             stroke="#323021"
             stroke-width="70"/>
-      <text x="400" y="-80" text-anchor="middle" stroke="#d80ed8">32%</text>
+      <text x="400" y="-80" text-anchor="middle" stroke="#d80ed8">31.818181818181817%</text>
       <line x1="400"
             x2="400"
-            y1="-160"
-            y2="-275"
+            y1="-159.0909090909091"
+            y2="-272.72727272727275"
             stroke="#5e846d"
             stroke-width="70"/>
-      <text x="400" y="-200" text-anchor="middle" stroke="#d80ed8">23%</text>
+      <text x="400" y="-200" text-anchor="middle" stroke="#d80ed8">22.727272727272727%</text>
       <line x1="400"
             x2="400"
-            y1="-275"
-            y2="-425"
+            y1="-272.72727272727275"
+            y2="-420.4545454545455"
             stroke="#98a2a1"
             stroke-width="70"/>
-      <text x="400" y="-330" text-anchor="middle" stroke="#d80ed8">30%</text>
+      <text x="400" y="-330" text-anchor="middle" stroke="#d80ed8">29.545454545454547%</text>
       <line x1="400"
             x2="400"
-            y1="-425"
-            y2="-505"
+            y1="-420.4545454545455"
+            y2="-500"
             stroke="#bdcfc6"
             stroke-width="70"/>
       <text x="400"
@@ -109,35 +109,35 @@
             font-size="23"
             text-anchor="end"
             transform="rotate(-45 400, 15)">The Call of Cthulhu</text>
-      <text x="400" y="-450" text-anchor="middle" stroke="#d80ed8">16%</text>
+      <text x="400" y="-450" text-anchor="middle" stroke="#d80ed8">15.909090909090908%</text>
       <line x1="600"
             x2="600"
             y1="0"
-            y2="-135"
+            y2="-133.98058252427182"
             stroke="#323021"
             stroke-width="70"/>
-      <text x="600" y="-65" text-anchor="middle" stroke="#d80ed8">27%</text>
+      <text x="600" y="-65" text-anchor="middle" stroke="#d80ed8">26.796116504854368%</text>
       <line x1="600"
             x2="600"
-            y1="-135"
-            y2="-185"
+            y1="-133.98058252427182"
+            y2="-186.40776699029124"
             stroke="#5e846d"
             stroke-width="70"/>
-      <text x="600" y="-152" text-anchor="middle" stroke="#d80ed8">10%</text>
+      <text x="600" y="-152" text-anchor="middle" stroke="#d80ed8">10.485436893203884%</text>
       <line x1="600"
             x2="600"
-            y1="-185"
-            y2="-255"
+            y1="-186.40776699029124"
+            y2="-254.36893203883494"
             stroke="#98a2a1"
             stroke-width="70"/>
-      <text x="600" y="-222" text-anchor="middle" stroke="#d80ed8">14%</text>
+      <text x="600" y="-222" text-anchor="middle" stroke="#d80ed8">13.592233009708737%</text>
       <line x1="600"
             x2="600"
-            y1="-255"
-            y2="-495"
+            y1="-254.36893203883494"
+            y2="-500"
             stroke="#bdcfc6"
             stroke-width="70"/>
-      <text x="600" y="-380" text-anchor="middle" stroke="#d80ed8">49%</text>
+      <text x="600" y="-380" text-anchor="middle" stroke="#d80ed8">49.12621359223301%</text>
       <text x="600"
             y="10"
             font-size="23"
