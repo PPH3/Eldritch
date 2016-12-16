@@ -13,7 +13,6 @@ body {
 
 #tcoc_page {
     
-    
       margin: 400px; 
  margin-top:200px;
   display: block; 
@@ -29,7 +28,7 @@ body {
     line-height: 1.2;
 }
 
-#atmom_page {
+#text {
      margin: 400px; 
   margin-top:200px;
   
@@ -124,7 +123,7 @@ table, th, td {
     	background :#FFFFE0;
 }
 
-.atmom_b{
+#text{
     background:	#FFFFE0;
 }
 
@@ -272,7 +271,41 @@ position: relative;
     margin-top: 200px;
     
 }
-
+span.note{
+position: absolute;
+/*right:15%;*/
+color: #000041;
+text-decoration:none;
+cursor:context-menu;
+line-height:normal;
+font-size: .75em;
+text-align:left;
+font-weight: normal;
+background: #CCE0EB;
+border:solid #440029 2px;
+/*width:300px;*/
+min-width:10vw;
+max-width:30vw;
+min-height:auto;
+max-height:50vh;
+padding:5px;
+overflow-y:scroll;
+overflow-x:scroll;
+z-index: 3;
+display:none;
+}
+span[title="other"]{
+    color:brown;
+}
+span[title="religion"]{
+    color:blue;
+}
+span[title="scientific"]{
+    color:red;
+}
+span[title="gothic"]{
+    color:gray;
+}
 .methodology {
     
 }

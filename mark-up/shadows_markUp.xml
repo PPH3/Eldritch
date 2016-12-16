@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Shadow Over <placeName>Innsmouth</placeName>
+            <title>The Shadow Over Innsmouth
             </title>
             <author>H. P. Lovecraft</author>
             <editor><!--Do you consider yourselves editors of this text? Or are you working with a particular editor's version of this text? If so, indicate that editor.--></editor>
@@ -39,7 +39,7 @@
             <title>THE SHADOW OVER INNSMOUTH</title>
          </head>
 
-         <p>I</p>
+         <div><head>I</head>
 
          <p>During the winter of <date>1927-28</date> officials of the <orgName>Federal government</orgName> made a strange and <w type="gothic" synsetCount="14">secret</w> investigation of certain conditions in the <w type="other" synsetCount="4">ancient</w> 
             <placeName>Massachusetts seaport of <placeName>Innsmouth</placeName> 
@@ -173,7 +173,7 @@
                <placeName>Y</placeName> 
             </q>" as the night wore away.</p>
 
-         <p>II</p>
+         </div><div><head>II</head>
 
          <p>Shortly before ten the next morning I stood with one small valise in front of <placeName>Hammond's Drug Store </placeName> in <placeName>old Market Square</placeName> waiting for the <placeName>Innsmouth</placeName> bus. As the hour for its arrival drew near I noticed a general drift of the loungers to other places up the street, or to the Ideal Lunch across the square. Evidently the ticket-agent had not exaggerated the dislike which local People bore toward <placeName>Innsmouth</placeName> and its denizens. In a few moments a small motor-coach of extreme <w type="gothic" synsetCount="1">decrepitude</w> and dirty grey colour rattled down <placeName>State Street</placeName>, made a turn, and drew up at the curb beside me. I felt immediately that it was the right one; a guess which the half-illegible sign on the windshield--<placeName>Arkham</placeName>-<placeName>Innsmouth</placeName>-<placeName>Newburyport</placeName>--soon verified.</p>
 
@@ -293,7 +293,7 @@
          <p>It was then that I saw the tumbledown fire station on my left, and noticed the red faced, bushy-bearded, watery eyed old man in nondescript rags who sat on a bench in front of it talking with a pair of unkempt but not <w type="scientific" synsetCount="3">abnormal</w> slooking firemen. This, of course, must be Zadok Allen, the half-crazed, <w type="other" synsetCount="0">liquorish</w> 
             <w type="scientific" synsetCount="2">nonagenarian</w> whose tales of old <placeName>Innsmouth</placeName> and its <w type="gothic" synsetCount="12">shadow</w> were so hideous and incredible.</p>
 
-         <p>III</p>
+         </div><div><head>III</head>
 
          <p>It must have been some imp of the perverse--or some sardonic pull from dark, hidden sources--which made me change my plans as I did. I had long before resolved to limit my observations to architecture alone, and I was even then hurrying toward the Square in an effort to get quick transportation out of this festering city of death and <w type="gothic" synsetCount="8">decay</w>; but the sight of old Zadok Allen set up new currents in my mind and made me slacken my pace uncertainly.</p>
 
@@ -437,7 +437,7 @@
 
          <p>I glanced back at the sea, but there was nothing there. And when I reached Water Street and looked along it toward the north there was no remaining trace of Zadok Allen.</p>
 
-         <p>IV</p>
+         </div><div><head>IV</head>
 
          <p>I can hardly describe the mood in which I was left by this harrowing episode--an episode at once mad and pitiful, <w type="gothic" synsetCount="3">grotesque</w> and terrifying. The grocery boy had prepared me for it, yet the reality left me none the less bewildered and disturbed. Puerile though the story was, old Zadok's insane earnestness and <w type="gothic" synsetCount="3">horror</w> had communicated to me a mounting unrest which joined with my earlier sense of loathing for the town and its blight of intangible <w type="gothic" synsetCount="12">shadow</w>.</p>
 
@@ -606,7 +606,7 @@
             <w type="other" synsetCount="1">tiara</w> at Newburyport still fresh? They were the <w type="religious" synsetCount="2">blasphemous</w> 
             <w type="other" synsetCount="0">fish-frogs</w> of the nameless design--living and <w type="gothic" synsetCount="1">horrible</w>--and as I saw them I knew also of what that humped, tiaraed priest in the black church basement had fearsomely reminded me. Their number was past guessing. It seemed to me that there were limitless swarms of them and certainly my momentary glimpse could have shewn only the least fraction. In another instant everything was blotted out by a merciful fit of fainting; the first I had ever had.</p>
 
-         <p>V</p>
+         </div><div><head>V</head>
 
          <p>It was a gentle daylight rain that awaked me front my stupor in the brush-grown railway cut, and when I staggered out to the roadway ahead I saw no trace of any prints in the fresh mud. The fishy odour, too, was gone, <placeName>Innsmouth</placeName>'s <w type="gothic" synsetCount="9">ruined</w> roofs and toppling steeples loomed up greyly toward the southeast, but not a living <w type="other" synsetCount="3">creature</w> did I spy in all the <w type="gothic" synsetCount="5">desolate</w> salt marshes around. My watch was still going, and told me that the hour was past noon.</p>
 
@@ -657,7 +657,7 @@
          <p>I shall plan my cousin's escape from that <placeName>Canton</placeName> mad-house, and together we shall go to marvel-<w type="gothic" synsetCount="4">shadowed</w> 
             <placeName>Innsmouth</placeName>. We shall swim out to that brooding reef in the sea and dive down through black <w type="gothic" synsetCount="2">
                <w type="gothic" synsetCount="2">abyss</w>es</w> to <w type="scientific" synsetCount="1">Cyclopean</w> and many-columned <w type="other" synsetCount="0">Y'ha-nthlei</w>, and in that lair of the Deep Ones we shall dwell amidst wonder and glory for ever.</p>
-
+         </div>
       </body>
   </text>
 </TEI>

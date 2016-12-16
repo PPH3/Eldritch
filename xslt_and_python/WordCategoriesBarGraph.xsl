@@ -85,35 +85,35 @@
                         <xsl:for-each select="1 to 3">
                               <xsl:if test="current() = 1">
                                     <!--Other Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="0" y2="-{$otherWordsMtnsPerc * $ySpacer}" stroke="#323021" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-85" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$otherWordsMtnsPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-85" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($otherWordsMtnsPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Scientific Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{$otherWordsMtnsPerc * $ySpacer}" y2="-{($sciWordsMtnsPerc + $otherWordsMtnsPerc) * $ySpacer}" stroke="#5e846d" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-258" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$sciWordsMtnsPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-258" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($sciWordsMtnsPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Religious Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{($sciWordsMtnsPerc + $otherWordsMtnsPerc) * $ySpacer}" y2="-{($sciWordsMtnsPerc + $otherWordsMtnsPerc + $relWordsMtnsPerc) * $ySpacer}" stroke="#98a2a1" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-393" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$gothWordsMtnsPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-393" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($gothWordsMtnsPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Gothic Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{($sciWordsMtnsPerc + $otherWordsMtnsPerc + $relWordsMtnsPerc) * $ySpacer}" y2="-{($sciWordsMtnsPerc + $otherWordsMtnsPerc + $relWordsMtnsPerc + $gothWordsMtnsPerc) * $ySpacer}" stroke="#bdcfc6" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-460" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$gothWordsMtnsPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-460" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($gothWordsMtnsPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <text x="{current() * 20  * $xSpacer}" y="10" font-size="23" text-anchor="end" transform="rotate(-45 {current() * 20  * $xSpacer}, 15)">At The Mountains of Madness</text>
                               </xsl:if>
                               <xsl:if test="current() = 2">
                                     <!--Other Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="0" y2="-{$otherWordsCallPerc * $ySpacer}" stroke="#323021" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-80" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$otherWordsCallPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-80" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($otherWordsCallPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Scientific Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{$otherWordsCallPerc * $ySpacer}" y2="-{($sciWordsCallPerc + $otherWordsCallPerc) * $ySpacer}" stroke="#5e846d" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-200" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$sciWordsCallPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-200" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($sciWordsCallPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Religious Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{($sciWordsCallPerc + $otherWordsCallPerc) * $ySpacer}" y2="-{($sciWordsCallPerc + $otherWordsCallPerc + $relWordsCallPerc) * $ySpacer}" stroke="#98a2a1" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-330" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$relWordsCallPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-330" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($relWordsCallPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Gothic Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{($sciWordsCallPerc + $otherWordsCallPerc + $relWordsCallPerc) * $ySpacer}" y2="-{($sciWordsCallPerc + $otherWordsCallPerc + $relWordsCallPerc + $gothWordsCallPerc) * $ySpacer}" stroke="#bdcfc6" stroke-width="70"/>
                                     <text x="{current() * 20  * $xSpacer}" y="10" font-size="23" text-anchor="end" transform="rotate(-45 {current() * 20  * $xSpacer}, 15)">The Call of Cthulhu</text>
-                                    <text x="{current() * 20 * $xSpacer}" y="-450" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$gothWordsCallPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-450" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($gothWordsCallPerc,'##')"/><xsl:text>%</xsl:text></text>
                               </xsl:if>
                               <xsl:if test="current() = 3">
                                     <!--Other Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="0" y2="-{$otherWordsShadowPerc * $ySpacer}" stroke="#323021" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-65" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$otherWordsShadowPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-65" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($otherWordsShadowPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Scientific Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{$otherWordsShadowPerc * $ySpacer}" y2="-{($sciWordsShadowPerc + $otherWordsShadowPerc) * $ySpacer}" stroke="#5e846d" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-152" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$sciWordsShadowPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-152" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($sciWordsShadowPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Religious Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{($sciWordsShadowPerc + $otherWordsShadowPerc) * $ySpacer}" y2="-{($sciWordsShadowPerc + $otherWordsShadowPerc + $relWordsShadowPerc) * $ySpacer}" stroke="#98a2a1" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-222" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$relWordsShadowPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-222" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($relWordsShadowPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <!--Gothic Line--><line x1="{current() * 20 * $xSpacer}" x2="{current() * 20 * $xSpacer}" y1="-{($sciWordsShadowPerc + $otherWordsShadowPerc + $relWordsShadowPerc) * $ySpacer}" y2="-{($sciWordsShadowPerc + $otherWordsShadowPerc + $relWordsShadowPerc + $gothWordsShadowPerc) * $ySpacer}" stroke="#bdcfc6" stroke-width="70"/>
-                                    <text x="{current() * 20 * $xSpacer}" y="-380" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="$gothWordsShadowPerc"/><xsl:text>%</xsl:text></text>
+                                    <text x="{current() * 20 * $xSpacer}" y="-380" text-anchor="middle" stroke="#d80ed8"><xsl:value-of select="format-number($gothWordsShadowPerc,'##')"/><xsl:text>%</xsl:text></text>
                                     <text x="{current() * 20  * $xSpacer}" y="10" font-size="23" text-anchor="end" transform="rotate(-45 {current() * 20  * $xSpacer}, 15)">The Shadow Over Innsmouth</text>
                               </xsl:if>
                         </xsl:for-each>
