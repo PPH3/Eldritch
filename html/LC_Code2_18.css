@@ -1,5 +1,4 @@
 
-
 body {
 	
 	position: relative;
@@ -13,7 +12,7 @@ body {
 
 #tcoc_page {
     
-      margin: 400px; 
+      margin: 350px; 
  margin-top:200px;
   display: block; 
   height:auto;
@@ -22,6 +21,7 @@ body {
   width: 1258px;
    color : black;
     z-index: 2;
+
     text-align: justify;  
     -moz-text-align-last: right; /* Code for Firefox */
     text-align-last: left;
@@ -29,28 +29,34 @@ body {
 }
 
 #text {
-     margin: 400px; 
+     margin: 350px; 
   margin-top:200px;
+   margin-right: 100px;
   
+   padding-right: 60px;
   display: block; 
   height:auto;
   position: relative; 
-  overflow: hidden; 
+  /*  overflow: hidden; */
   width: 1258px;
    color : black;
     z-index: 2;
+
     text-align: justify;  
     -moz-text-align-last: right; /* Code for Firefox */
     text-align-last: left;
     line-height: 1.2;
+      background:	#FFFFE0;
+      
 }
 
 #anal_page {
    
   
- margin: 400px; 
+ margin: 300px; 
   margin-top:200px;
-  
+
+   padding-right: 80px;
   display: block; 
   height:auto;
   position: relative; 
@@ -58,6 +64,7 @@ body {
   width: 1258px;
    color : white;
     z-index: 2;
+
     text-align: justify;  
     -moz-text-align-last: right; /* Code for Firefox */
     text-align-last: left;
@@ -70,6 +77,7 @@ body {
      margin: 300px; 
   margin-top:200px;
   
+   padding-right: 100px;
   display: block; 
   height:auto;
   position: relative; 
@@ -78,6 +86,7 @@ body {
   width: 100%;
    color : black;
     z-index: 2;
+
     text-align: justify;  
     -moz-text-align-last: right; /* Code for Firefox */
     text-align-last: left;
@@ -117,15 +126,15 @@ table, th, td {
 
 .tsoi_b {
     background: 		#FFFFE0;
+    
 }
 
 .tcoc_b {
     	background :#FFFFE0;
+    	 
 }
 
-#text{
-    background:	#FFFFE0;
-}
+
 
 #about_page{
  margin: 600px;
@@ -137,6 +146,7 @@ table, th, td {
   width: 758px;
    color : white;
     z-index: 2;
+
     text-align: justify;  
     -moz-text-align-last: right; /* Code for Firefox */
     text-align-last: left;
@@ -145,7 +155,7 @@ table, th, td {
 
 
 #tsoi_page {
-       margin: 400px; 
+       margin: 350px; 
  margin-top:200px;
   display: block; 
   height:auto;
@@ -154,10 +164,13 @@ table, th, td {
   width: 1258px;
    color : black;
     z-index: 2;
+
     text-align: justify;  
     -moz-text-align-last: right; /* Code for Firefox */
     text-align-last: left;
     line-height: 1.2;
+     
+   
 }
 
 
@@ -173,6 +186,7 @@ table, th, td {
   width: 758px;
    color : white;
     z-index: 2;
+
     
     text-align: justify;  
     -moz-text-align-last: right; /* Code for Firefox */
@@ -187,7 +201,7 @@ table, th, td {
     position: fixed; 
     left: 0px; 
     top: 0px; 
-    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    z-index: 1; /* Ensure div tag stays behind content; -999 might work, too. */
 }
 
 .stretch {
@@ -289,8 +303,8 @@ max-width:30vw;
 min-height:auto;
 max-height:50vh;
 padding:5px;
-overflow-y:scroll;
-overflow-x:scroll;
+/*overflow-y:visible;
+overflow-x:visible;*/
 z-index: 3;
 display:none;
 }
