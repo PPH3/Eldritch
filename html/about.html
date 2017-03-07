@@ -22,150 +22,165 @@
         <!--#include virtual="navBar.html"-->
         <!--End of Menu -->
         <div id="about_page">
-            <div class="methology"> 
-            <h1><span style="color: red">Methodology</span></h1>
-            <br />
-            <br />
-            <h2> The overall purpose of this project is to analyse a compendium of Lovecraft's
-                peculiar vocabulary that elicit a feeling of either confusion, ambiguity, or dread.
-                Our research initially sought out words that are either archaic or obsolete within
-                the modern English vocabulary. That is, do these obsolete words carry any intent to
-                conjure an emotional response to the "eldritch" context of his works. Our research
-                yielded little in this regard, due to the absence of numerous anachronistic words.
-                However, we did notice the intentional usage of scientific, religious, and Gothic
-                terms which evoked what can best be described culturally and emotionally as the
-                "biological sublime"; an overwhelming experience of the uncanny stimulated by
-                Lovecraft's phantasmagorical prose. We used TEI markup to capture these words. Upon
-                collecting 666 words, we became curious as to the ambiguity of certain terms within
-                our categories of word groups. From here, we used Python and XSLT in order to create
-                a word list of tagged words, their word types, and a representation of ambiguity
-                based on analysis of synsets. Synsets are a representation of ambiguity because the
-                number of synsets per word indicates the number of alternate meanings. Finally, we
-                reincorporated the synset and definition information via Python into our HTML
-                representation of our chosen set of Lovecraft's texts. We determined that our corpus
-                of texts incorporated more scientific terms than expected. This led to our
-                conclusion that these texts have an inclusive set of words that play to what
-                Lovecraft deemed the "fear of the unknown," through what is threatening to the
-                human-centric world view. </h2>
-            </div>
-        
-        <div class="hr">
-            <hr />
-        </div>
-        <div class="about_body">
-            <h1><span style="color: red">Author and Selected Texts</span></h1>
-            <br />
-            <br />
-            <h2> H.P Lovecraft is an early twentieth century writer of "weird fiction." His works
-                are compared to the supernatural heritage of nineteenth century Gothic fiction. The
-                prose of Lovecraft is what distinguishes him from other writers of horror. His
-                verbose style is laden with exotic adjectives and archaic references, which serve to
-                confound the average reader, as Lovecraft wrote pedantically and not to the
-                comprehension level of his readership. His worldview held that humankind is a tragic
-                cosmic accident that is mocked by an ancient race of extraterrestrial gods known as
-                “The Great Old Ones.” Among these beings are: Cthulhu, Nyarlathotep, and
-                Yog-Sothoth. The tales involving these deities are replete with madness, horror, and
-                bizarre mutations. The Great Old One’s hold humankind with utter indifference, with
-                the exception of the select few who are sensitive to the powers of The Great Old
-                Ones and wish to resurrect them from the darkest regions of the space. This is
-                facilitated by delving into the horrid words of Lovecraft’s forbidden grimoire, "The
-                Necronomicon." The author has crafted many characters who thirst for knowledge and
-                seek to uncover esoteric secrets. These damned figures unleash a bevy of horrors
-                upon an unsuspecting New England. The protagonists of these tales are subjected to
-                atrocities wrought by an unforgiving cosmos and as a result, they go irretrievably
-                insane. We chose our corpus of texts, from the Cthulhu mythos, to reflect these
-                uncanny culture characteristics of Lovecraft's prose. </h2>
-        </div>
-        <div class="hr">
-            <hr />
-        </div>
-        <div class="about_us">
-
-            <h1><span style="color: red">About Us!</span></h1>
-            <br />
-
-            <br />
-            <br />
-            <div class="matt_image">
-                <img src="cthulhu_forpres.jpg" alt="Matts_image" class="stretch" />
-            </div>
-
-
-            <div class="matt">
-
-
-                <h2>
-                    <span style="color: blue">Matthew Burch</span> is a 2018 graduate of the
-                    University of Pittsburgh at Greensburg with bachelors’ degrees in English
-                    Literature and Professional Writing. He also obtained a minor in Theater, as
-                    well a Digital Studies Certificate. Matt’s contribution to the project consisted
-                    of text encoding, XSLT transformation, and natural language processing using
-                    python scripts. </h2>
-            </div>
-            <div class="hr">
-                <hr />
-            </div>
-            <br />
-            <br />
-            <div class="patt_image">
-                <img src="nyarlathotep.jpg" alt="patt_image" class="stretch" />
-            </div>
-
-            <div class="patt">
-
-                <h2>
-                    <span style="color : green">Pat Herron</span> is a 2017 graduate from the
-                    University of Pittsburgh at Greensburg with a bachelor’s in English Literature.
-                    Pat wrote markup for the texts and added analysis to the project, along with
-                    supplementary investigation into the research thesis.</h2>
-
-            </div>
-
-            <div class="hr">
-                <hr />
-            </div>
-            <br />
-            <br />
-            <div class="evan_image">
-                <img src="baby_cthulhu.jpg" alt="evan_image" class="stretch" />
-            </div>
-            <div class="evan">
+            <div class="methology">
+                <h1><span style="color: red">Methodology</span></h1>
                 <br />
-                <h2><span style="color : purple">Evan Tatarka</span> is a 2018 graduate of the
-                    University of Pittsburgh at Greensburg with a bachelor’s in Information
-                    Technology. Evan wrote code for HTML, CSS, and added some complimentary
-                    aesthetics; sounds as well as imagery.</h2>
+                <br />
+                <h2> The overall purpose of this project is to analyse a compendium of Lovecraft's
+                    peculiar vocabulary that elicit a feeling of either confusion, ambiguity, or
+                    dread. Our research initially sought out words that are either archaic or
+                    obsolete within the modern English vocabulary. That is, do these obsolete words
+                    carry any intent to conjure an emotional response to the "eldritch" context of
+                    his works. Our research yielded little in this regard, due to the absence of
+                    numerous anachronistic words. However, we did notice the intentional usage of
+                    scientific, religious, and Gothic terms which evoked what can best be described
+                    culturally and emotionally as the "biological sublime"; an overwhelming
+                    experience of the uncanny stimulated by Lovecraft's phantasmagorical prose. We
+                    used TEI markup to capture these words. Upon collecting 666 words, we became
+                    curious as to the ambiguity of certain terms within our categories of word
+                    groups. From here, we used <a
+                        href="https://github.com/PPH3/Eldritch/blob/master/xslt_and_python/lexAmb.py"
+                        >Python</a> and <a
+                        href="https://github.com/PPH3/Eldritch/blob/master/xslt_and_python/syn_to_fullList.xsl"
+                        >XSLT</a> in order to create a <a
+                        href="https://github.com/PPH3/Eldritch/blob/master/xslt_and_python/fullList_syn.xml"
+                        >word list</a> of tagged words, their word types, and a representation of
+                    ambiguity based on analysis of synsets. Synsets are a representation of
+                    ambiguity because the number of synsets per word indicates the number of
+                    alternate meanings. Finally, we reincorporated the Python-generated synset and
+                    definition information via <a
+                        href="https://github.com/PPH3/Eldritch/blob/master/xslt_and_python/text_java.xsl"
+                        >XSLT</a> into our HTML representation of our chosen set of Lovecraft's
+                    texts. We determined that our corpus of texts incorporated more scientific terms
+                    than expected. This led to our conclusion that these texts have an inclusive set
+                    of words that play to what Lovecraft deemed the "fear of the unknown," through
+                    what is threatening to the human-centric world view. </h2>
             </div>
 
-        </div>
-        <br /><br />
-        <br /><br />
-        <br /><br />
-        <div class="hr">
-            <hr />
-        </div>
-        <div class="credit">
+            <div class="hr">
+                <hr />
+            </div>
+            <div class="about_body">
+                <h1><span style="color: red">Author and Selected Texts</span></h1>
+                <br />
+                <br />
+                <h2> H.P Lovecraft is an early twentieth century writer of "weird fiction." His
+                    works are compared to the supernatural heritage of nineteenth century Gothic
+                    fiction. The prose of Lovecraft is what distinguishes him from other writers of
+                    horror. His verbose style is laden with exotic adjectives and archaic
+                    references, which serve to confound the average reader, as Lovecraft wrote
+                    pedantically and not to the comprehension level of his readership. His worldview
+                    held that humankind is a tragic cosmic accident that is mocked by an ancient
+                    race of extraterrestrial gods known as “The Great Old Ones.” Among these beings
+                    are: Cthulhu, Nyarlathotep, and Yog-Sothoth. The tales involving these deities
+                    are replete with madness, horror, and bizarre mutations. The Great Old One’s
+                    hold humankind with utter indifference, with the exception of the select few who
+                    are sensitive to the powers of The Great Old Ones and wish to resurrect them
+                    from the darkest regions of the space. This is facilitated by delving into the
+                    horrid words of Lovecraft’s forbidden grimoire, "The Necronomicon." The author
+                    has crafted many characters who thirst for knowledge and seek to uncover
+                    esoteric secrets. These damned figures unleash a bevy of horrors upon an
+                    unsuspecting New England. The protagonists of these tales are subjected to
+                    atrocities wrought by an unforgiving cosmos and as a result, they go
+                    irretrievably insane. We chose our corpus of texts, from the Cthulhu mythos, to
+                    reflect these uncanny culture characteristics of Lovecraft's prose. </h2>
+            </div>
+            <div class="hr">
+                <hr />
+            </div>
+            <div class="about_us">
 
-            <h1><span style="color: red">Crediting Sources</span></h1>
-            <h4>There are many things used within this project that we did not create. These things
-                range from the Music used on the intro page as well as background images. This is a
-                section of our about page we where will be giving credit to those people.
-                <br /><br /> The Intro Music that we used comes from the famous Anime <b>Death
-                    Note</b> OST, The music was created by composer and musician Hideki Taniuchi and
-                composer Yoshihisa Hirano. We took snippets from the song and edited them in the
-                editing program called Audacity and added it onto the site. <br /><br /> The
-                Background used for our homepage was obtained from <a href="www.deviantart.com/"
-                    >www.deviantart.com</a> from the user <b>JJcanvas</b>. <br /><br /> The
-                Background image used for this about page I got from <a
-                    href="https://alpha.wallhaven.cc/wallpaper/358633">alpha.wallhaven.cc</a>
-                <br /><br /> The Background image for our analysis page is credited within the
-                background. <br /><br /> The music on our Analysis page comes from 2 different
-                sources. There is a separate audio clip for the rain noises and one for the creaking
-                ship sounds. The rain noise comes from a video on YouTube that clipped out the rain
-                from the Halo Reach Theater Lobby. All Rights go to the composers of music and
-                Bungie. The composers are Martin O'Donnell, Michael Salvatori. The Creaking Ship is
-                a royalty free sound track from the YouTube channel n Beats Sound Effects. </h4>
-        </div>
+                <h1><span style="color: red">About Us!</span></h1>
+                <br />
+
+                <br />
+                <br />
+                <div class="matt_image">
+                    <img src="cthulhu_forpres.jpg" alt="Matts_image" class="stretch" />
+                </div>
+
+
+                <div class="matt">
+
+
+                    <h2>
+                        <span style="color: blue">Matthew Burch</span> is a 2018 graduate of the
+                        University of Pittsburgh at Greensburg with bachelors’ degrees in English
+                        Literature and Professional Writing. He also obtained a minor in Theater, as
+                        well a Digital Studies Certificate. Matt’s contribution to the project
+                        consisted of text encoding, XSLT transformation, and natural language
+                        processing using python scripts. </h2>
+                </div>
+                <div class="hr">
+                    <hr />
+                </div>
+                <br />
+                <br />
+                <div class="patt_image">
+                    <img src="nyarlathotep.jpg" alt="patt_image" class="stretch" />
+                </div>
+
+                <div class="patt">
+
+                    <h2>
+                        <span style="color : green">Pat Herron</span> is a 2017 graduate from the
+                        University of Pittsburgh at Greensburg with a bachelor’s in English
+                        Literature. Pat wrote markup for the texts and added analysis to the
+                        project, along with supplementary investigation into the research
+                        thesis.</h2>
+
+                </div>
+
+                <div class="hr">
+                    <hr />
+                </div>
+                <br />
+                <br />
+                <div class="evan_image">
+                    <img src="baby_cthulhu.jpg" alt="evan_image" class="stretch" />
+                </div>
+                <div class="evan">
+                    <br />
+                    <h2><span style="color : purple">Evan Tatarka</span> is a 2018 graduate of the
+                        University of Pittsburgh at Greensburg with a bachelor’s in Information
+                        Technology. Evan wrote code for HTML, CSS, and added some complimentary
+                        aesthetics; sounds as well as imagery.</h2>
+                </div>
+
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="hr">
+                <hr />
+            </div>
+            <div class="credit">
+
+                <h1><span style="color: red">Crediting Sources</span></h1>
+                <h4>There are many things used within this project that we did not create. These
+                    things range from the Music used on the intro page as well as background images.
+                    This is a section of our about page we where will be giving credit to those
+                    people. <br /><br /> The Intro Music that we used comes from the famous Anime
+                        <b>Death Note</b> OST, The music was created by composer and musician Hideki
+                    Taniuchi and composer Yoshihisa Hirano. We took snippets from the song and
+                    edited them in the editing program called Audacity and added it onto the site.
+                    <br /><br /> The Background used for our homepage was obtained from <a
+                        href="www.deviantart.com/">www.deviantart.com</a> from the user
+                        <b>JJcanvas</b>. <br /><br /> The Background image used for this about page
+                    I got from <a href="https://alpha.wallhaven.cc/wallpaper/358633"
+                        >alpha.wallhaven.cc</a>
+                    <br /><br /> The Background image for our analysis page is credited within the
+                    background. <br /><br /> The music on our Analysis page comes from 2 different
+                    sources. There is a separate audio clip for the rain noises and one for the
+                    creaking ship sounds. The rain noise comes from a video on YouTube that clipped
+                    out the rain from the Halo Reach Theater Lobby. All Rights go to the composers
+                    of music and Bungie. The composers are Martin O'Donnell, Michael Salvatori. The
+                    Creaking Ship is a royalty free sound track from the YouTube channel n Beats
+                    Sound Effects. </h4>
+            </div>
         </div>
     </body>
 </html>
