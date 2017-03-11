@@ -53,7 +53,8 @@
             </classSpec>
          
             <elementSpec ident="w" module="analysis" mode="change">
-            <constraintSpec scheme="isoschematron" ident="synsetFormat">
+               <!--2017-03-11 ebb: THIS RULE IS NO LONGER NEEDED. SEE the attDef datatype/dataRef definition below on how to properly constrain an attribute value with a regular expression. Thanks to Lou Burnard for helping to debug this. :-) -->
+        <!--    <constraintSpec scheme="isoschematron" ident="synsetFormat">
                   <constraint>
                      <sch:rule context="tei:w/@synset">
                         <sch:assert test="matches(., '^[a-z]+\.[a-z]\.\d{2}$')">
@@ -61,11 +62,14 @@
                         </sch:assert>
                      </sch:rule>
                   </constraint>
-               </constraintSpec>
+               </constraintSpec>-->
             <attList>
                <attDef ident="synset" mode="add" usage="rec">
                   <datatype>
-                     <dataRef key="teidata.pattern" restriction="^[a-z]+\.[a-z]\.\d{2}$"/>
+                     <!--<rng:text/>-->
+                 <dataRef name="token" restriction="[a-z]+\.[a-z]\.\d{2}"/>
+                     <!--2017-03-11 ebb: learned from Lou Burnard that what we need here is @name="token" intead of @key="teidata.pattern" because you can't use @restriction with @key (though this isn't well documented). (You can't use
+                     @key because it might point to a data spec that already includes a restriction.) NOTE: we don't need (or want) to use ^ and $ here; they appear to cause misfires in the validation. (No need to designate the start and end of the attribute value here.) -->
                      <!--2016-12-05 ebb: attempting to fix with teidata.pattern instead of data.pattern.
                         2016-12-02 ebb: This doesn't seem to be working on its own, so we added a Schematron constraint to control the content.-->
                   </datatype>
@@ -73,6 +77,8 @@
                <attDef ident="synsetCount" mode="add" usage="rec">
                   <datatype>
                      <dataRef name="integer"/>
+                    <!--2017-03-11 ebb: Actually, this DOES seem to be working in the associated files.-->
+                     <!--2017-03-11: Lou Burnard, testing this in a simpler ODD, sees our dataRef name="integer" working just fine.--><!--2017-03-11: ebb: Try <rng:integer if the above doesn't work?/>-->
                      <!--2016-12-02 ebb: This doesn't seem to be working on its own, so we added a Schematron constraint to control the content.-->
                   </datatype>
                </attDef>  
