@@ -6,6 +6,10 @@ body{
     height: 100%;
     background-color: #182327;
 }
+.margins{
+    margin-left:200px;
+    margin-top:200px;
+}
 #master_bar{
     /*background-image: url(images/creepy.jpg);*/
     background-color: #182327;
