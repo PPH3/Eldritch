@@ -7,8 +7,8 @@ body{
     background-color: #182327;
 }
 .margins{
-    margin-left:200px;
-    margin-top:200px;
+    margin-left: 200px;
+    margin-top: 200px;
 }
 #master_bar{
     /*background-image: url(images/creepy.jpg);*/
@@ -30,7 +30,7 @@ body{
     margin-right: 20px
 }
 .right{
-    float:right;
+    float: right;
 }
 a{
     color: #F1F5F8;
@@ -117,14 +117,46 @@ p.anal{
     font-size: 20px;
 }
 
-th,
+.fixed_headers{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
 td{
-    border: 1px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 2px;
+    padding: 20px;
+    text-align: left;
     overflow: auto;
     text-align: left;
-    font-size: 14px;
+    font-size: 20px;
+    table-layout: fixed;
+}
+th{
+    table-layout: fixed;
+    border: 2px solid #182327;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    text-align: left;
+    color: #182327;
+    margin: 5px;
+    padding: 5px;
+}
+tr{
+    table-layout: fixed;
+    border: 1px solid #FFF;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+thead{
+    table-layout: fixed;
+}
+tbody{
+    table-layout: fixed;
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 500px;
 }
 .readText{
     font-size: 18px;
