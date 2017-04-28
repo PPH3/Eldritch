@@ -153,8 +153,6 @@ td{
 }
 th{
     table-layout: fixed;
-    overflow: auto;
-    text-align: left;
     text-align: left;
     font-size: 20px;
     border: 2px solid #182327;
@@ -164,7 +162,6 @@ th{
 thead{
     table-layout: fixed;
     display: block;
-    overflow: auto;
     height: 100px;
     position: relative;
 }
